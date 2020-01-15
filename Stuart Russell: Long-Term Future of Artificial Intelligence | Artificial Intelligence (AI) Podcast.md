@@ -12,449 +12,185 @@ The following is a conversation with Stuart Russell. He's a professor of Compute
 
 [Lex] You've mentioned in 1975, in high school, you've created one year first AI programs that play chess were you ever able to build a program that beat you a chess or another board game?
 
-[Stuart] My program never beat me at chess. I actually wrote the program at
-Imperial College so I used to take the bus every Wednesday with a box of cards
-this big and shove them into the card reader and they gave us eight seconds of
-CPU time. It took about five seconds to read the cards in and compile the code so we had
-three seconds of CPU time which was enough to make one move you know with a 
-not very deep search and then we would print that move out and then we'd have
-to go to the back of the queue and wait to feed the cards in again how do you
-post a search well I would talk to no I think we got we got an eight move eight
-you know depth eight with alpha beta and we had some tricks of our own about move
-ordering and some pruning of the tree and we were still able to beat that
-program yeah yeah I I was a reasonable chess player in my youth I did Anna
-fellow program and a backgammon program so when I go to Berkeley I worked a lot
-on what we call meta reasoning which really means reasoning about reasoning
-and in the case of a game playing program you need to reason about what
-parts of the search tree you're actually going to explore because the search tree
-is enormous or you know bigger than the number of atoms in the universe and the
-way programs succeed and the way humans succeed is by only looking at a small
-fraction of the search tree, and if you look at the right fraction you play
-really well if you look at the wrong fraction if you waste your time thinking
-about things that are never gonna happen the moves that no one's ever gonna make,
-then you're gonna lose because you you won't be able to figure out the right
-decision. So, that question of how machines can manage their own computation either how
-they decide what to think about is the meta-reasoning question we
-developed some methods for doing that and very simply a machine should think
-about whatever thoughts are going to improve its decision quality. We were
-able to show that both for a fellow which is a standard to play game and for
-backgammon which includes dice for also it's a two-player game with uncertainty. For both of those cases we could come up with algorithms that were actually much
-more efficient than the standard alpha-beta search which chess programs at the
-time we're using and that those programs could beat me and I think you can see
-same basic ideas in AlphaGo and alpha zero. Today the way they explored the
-tree is using a former meta reasoning to select what to think about based on how
-useful it is to think about it.
+[Stuart] My program never beat me at chess. I actually wrote the program at Imperial College so I used to take the bus every Wednesday with a box of cards this big and shove them into the card reader and they gave us eight seconds of CPU time. It took about five seconds to read the cards in and compile the code so we had three seconds of CPU time which was enough to make one move you know with a not very deep search and then we would print that move out and then we'd have to go to the back of the queue and wait to feed the cards in again how do you post a search well I would talk to no I think we got we got an eight move eight you know depth eight with alpha beta and we had some tricks of our own about move ordering and some pruning of the tree and we were still able to beat that program yeah yeah I I was a reasonable chess player in my youth I did Anna fellow program and a backgammon program so when I go to Berkeley I worked a lot on what we call meta reasoning which really means reasoning about reasoning and in the case of a game playing program you need to reason about what parts of the search tree you're actually going to explore because the search tree is enormous or you know bigger than the number of atoms in the universe and the
+way programs succeed and the way humans succeed is by only looking at a small fraction of the search tree, and if you look at the right fraction you play really well if you look at the wrong fraction if you waste your time thinking about things that are never gonna happen the moves that no one's ever gonna make, then you're gonna lose because you you won't be able to figure out the right decision. So, that question of how machines can manage their own computation either how they decide what to think about is the meta-reasoning question we developed some methods for doing that and very simply a machine should think about whatever thoughts are going to improve its decision quality. We were able to show that both for a fellow which is a standard to play game and for backgammon which includes dice for also it's a two-player game with uncertainty. For both of those cases we could come up with algorithms that were actually much more efficient than the standard alpha-beta search which chess programs at the time we're using and that those programs could beat me and I think you can see same basic ideas in AlphaGo and alpha zero. Today the way they explored the tree is using a former meta reasoning to select what to think about based on how useful it is to think about it.
 
 [Lex] Is there any insights you can describe without Greek symbols of how do we select which paths to go down?
 
-[Stuart] there's really two
-kinds of learning going on so as you say
-alphago learns to evaluate board
-position so it can it can look at a go
-board and it actually has probably a
-superhuman ability to instantly tell how
-promising that situation is to me the
-amazing thing about alphago is not that
-it can be the world champion with its
-hands tied behind his back but the fact
-that if you stop it from searching
-altogether so you say okay you're not
-allowed to do any thinking ahead
-right you can just consider each of your
-legal moves and then look at the
-resulting situation and evaluate it so
-what we call a depth one search so just
-the immediate outcome of your moves and
-decide if that's good or bad
-that version of alphago can still play
-at a professional level right and human
-professionals are sitting there for five
-ten minutes deciding what to do and
-alphago in less than a second
-instantly into it what is the right move
-to make based on its ability to evaluate
-positions and that is remarkable because
-you know we don't have that level of
-intuition about go we actually have to
-think about the situation so anyway that
-capability that alphago has is one big
-part of why it beats humans the other
-big part is that it's able to look ahead
-40 50 60 moves into the future mm-hmm
-and you know if it was considering all
-possibilities 40 or 50 or 60 moves into
-the future that would be you know 10 to
-the 200
-possibility so wait way more than you
-know atoms in the universe and and so on
-so it's very very selective about what
-it looks at
-so let me try to give you an intuition
-about how you decide what to think about
-it's a combination of two things one is
-how promising it is right so if you're
-already convinced that a move is
-terrible there's no point spending a lot
-more time convincing yourself that it's
-terrible because it's probably not gonna
-change your mind so the the real reason
-you think is because there's some
-possibility of changing your mind about
-what to do mm-hmm
-right and is that changing your mind
-that would result then in a better final
-action in the real world so that's the
-purpose of thinking is to improve the
-final action in the real world and so if
-you think about a move that is
-guaranteed to be terrible you can
-convince yourself is terrible and you're
-still not gonna change your mind all
-right
-but on the other hand you I suppose you
-had a choice between two moves one of
-them you've already figured out is
-guaranteed to be a draw let's say and
-then the other one looks a little bit
-worse like it looks fairly likely that
-if you make that move you're gonna lose
-but there's still some uncertainty about
-the value of that move there's still
-some possibility that it will turn out
-to be a win all right then it's worth
-thinking about that so even though it's
-less promising on average than the other
-move which is guaranteed to be a draw
-there's still some purpose in thinking
-about it because there's a chance that
-you will change your mind and discover
-that in fact it's a better move so it's
-a combination of how good the move
-appears to be and how much I'm certainty
-there is about its value the more
-uncertainty the more it's worth thinking
-about because there's a higher upside if
-you want to think of it that way and of
-course in the beginning especially in
-the alphago 0 formulation it's
-everything is shrouded in uncertainty so
-you're really swimming in a sea of
-uncertainty so it benefits you too I
-mean actually following the same process
-as you described but because you're so
-uncertain about everything you you
-basically have to try a lot of different
-directions yeah so so the early parts of
-the search tree a fairly bushy
-that it will when looking a lot of
-different possibilities but fairly
-quickly the degree of certainty about
-some of the moves I mean if a movies are
-really terrible you'll pretty quickly
-find out right you lose half your pieces
-or half your territory and and then
-you'll say okay this this is not worth
-thinking about any more and then so a
-further down the tree becomes very long
-and narrow and you're following various
-lines of play you know 10 20 30 40 50
-moves into the future and you know
-that's again it's something that human
-beings have a very hard time doing
-mainly because they just lacked the
-short-term memory you just can't
-remember a sequence of moves that's 50
-movies long and you can't you can't
-imagine the board correctly for that
-money moves into the future of course
-the top players I'm much more familiar
-with chess but the top players probably
-have they have echoes of the same kind
-of intuition instinct that in a moment's
-time
-alphago applies when they see a board
-I mean they've seen those patterns human
-beings have seen those patterns before
-at the top at the Grandmaster level it
-seems that there is some similarities or
-maybe it's it's our imagination creates
-a vision of those similarities but it
-feels like this kind of pattern
-recognition that the alphago approaches
-are using is similar to what human
-beings at the top level or using I think
-there's there's some truth to that but
-not entirely yeah I mean I think the the
-extent to which a human Grandmaster can
-reliably wreak instantly recognize the
-right move instantly recognize the value
-of a position I think that's a little
-bit overrated but if you sacrifice a
-queen for exam I mean there's these
-there's these beautiful games of chess
-with Bobby Fischer somebody where it's
-seeming to make a bad move and I'm not
-sure there's a
-a perfect degree of calculation involved
-were they've calculated all the possible
-things that happen but there's an
-instinct there right that somehow adds
-up to the yeah so I think what happens
-is you you you get a sense that there's
-some possibility in the position even if
-you make a weird-looking move that it
-opens up some some lines of of
-calculation that otherwise would be
-definitely bad and and is that intuition
-that there's something here in this
+[Stuart] There's really two kinds of learning going on so as you say
+AlphaGo learns to evaluate board position so it can it can look at a go
+board and it actually has probably a superhuman ability to instantly tell how
+promising that situation is. To me the amazing thing about alphago is not that
+it can be the world champion with its hands tied behind his back, but the fact
+that if you stop it from searching altogether - so, you say: okay you're not
+allowed to do any thinking ahead, right? You can just consider each of your
+legal moves and then look at the resulting situation and evaluate it so
+what we call a depth one search, so just the immediate outcome of your moves and
+decide if that's good or bad. That version of Aalphago can still play at a professional level, right? And human professionals are sitting there for five ten minutes deciding what to do, and alphago in less than a second instantly into it what is the right move to make based on its ability to evaluate positions. And that is remarkable because you know we don't have that level of intuition about Go, we actually have to think about the situation. So, anyway that capability that alphago has is one big part of why it beats humans; the other big part is that it's able to look ahead 40, 50, 60 moves into the future. And you know, if it was considering all possibilities -40 or 50 or 60 moves into the future-, that would be you know 10 to the 200 possibility, so way, way more than you know atoms in the universe. And and so on so it's very very selective about what it looks at. so let me try to give you an intuition about how you decide what to think about. It's a combination of two things: one is how promising it is right so if you're
+already convinced that a move is terrible there's no point spending a lot
+more time convincing yourself that it's terrible because it's probably not gonna
+change your mind.So, the the real reason you think is because there's some
+possibility of changing your mind about what to do right and is that changing your mind
+that would result then in a better final action in the real world so that's the
+purpose of thinking is to improve the final action in the real world and so if
+you think about a move that is guaranteed to be terrible you can
+convince yourself is terrible and you're still not gonna change your mind all
+right. But on the other hand you I suppose you had a choice between two moves one of
+them you've already figured out is guaranteed to be a draw let's say and
+then the other one looks a little bit worse like it looks fairly likely that if you make that move you're gonna lose but there's still some uncertainty about the value of that move there's still some possibility that it will turn out to be a win all right. Then it's worth
+thinking about that so even though it's less promising on average than the other
+move which is guaranteed to be a draw, there's still some purpose in thinking
+about it because there's a chance that you will change your mind and discover
+that in fact it's a better move. So it's a combination of how good the move appears to be and how much I'm certainty there is about its value. The more uncertainty, the more it's worth thinking about because there's a higher upside if you want to think of it that way.
+
+[Lex] And of course in the beginning especially in the alphago Zero formulation it's
+everything is shrouded in uncertainty so you're really swimming in a sea of
+uncertainty so it benefits you too. I mean actually following the same process
+as you described but because you're so uncertain about everything you you
+basically have to try a lot of different directions?
+
+[Stuart] Yeah. So, the early parts of the search tree a fairly bushy
+that it will when looking a lot of different possibilities but fairly
+quickly the degree of certainty about some of the moves I mean if a movies are
+really terrible you'll pretty quickly find out right you lose half your pieces
+or half your territory and and then you'll say okay this this is not worth
+thinking about any more and then so a further down the tree becomes very long
+and narrow and you're following various lines of play you know 10 20 30 40 50
+moves into the future and you know that's again it's something that human
+beings have a very hard time doing mainly because they just lacked the
+short-term memory. You just can't remember a sequence of moves that's 50
+movies long and you can't you can't imagine the board correctly for that
+money moves into the future.
+
+[Lex] Of course the top players I'm much more familiar with chess but the top players probably have they have echoes of the same kind of intuition instinct that in a moment's
+time alphago applies when they see a board I mean they've seen those patterns human
+beings have seen those patterns before at the top at the Grandmaster level. It
+seems that there is some similarities or maybe it's it's our imagination creates a vision of those similarities but it feels like this kind of pattern recognition that the alphago approaches are using is similar to what human beings at the top level, what do you think?
+
+[Stuart] I think there's there's some truth to that 
+
+[Lex] But not entirely 
+
+[Stuart Yeah I mean I think the the extent to which a human Grandmaster can
+reliably wreak instantly recognize the right move instantly recognize the value
+of a position I think that's a little bit overrated ...
+
+[Lex] But if you sacrifice a queen for exam I mean there's these
+there's these beautiful games of chess with Bobby Fischer somebody where it's
+seeming to make a bad move and I'm not sure there's a a perfect degree of calculation involved where they've calculated all the possible things that happen but there's an
+instinct there right that somehow adds up to the 
+
+[Stuart] yeah so I think what happens is you you you get a sense that there's
+some possibility in the position even if you make a weird-looking move that it
+opens up some some lines of of calculation that otherwise would be
+definitely bad and and is that intuition that there's something here in this
 position that might might yield a win
-down the side and then you follow that
-right and and in some sense when when a
-chess player is following a line and in
-his or her mind they're they mentally
-simulating what the other person is
-gonna do while the opponent is gonna do
-and they can do that as long as the
-moves are kind of forced right as long
-as there's a you know there's a fourth
-we call a forcing variation where the
-opponent doesn't really have much choice
-how to respond and then you see if you
-can force them into a situation where
-you win you know we see plenty of
-mistakes even even in Grandmaster games
-where they just miss some simple three
-four five move combination that you know
-wasn't particularly apparent in in the
-position but we're still there that's
-the thing that makes us human
-yeah so when you mentioned that in a
-fellow those games were after some meta
-reasoning improvements and research I
-was able to beat you how did that make
-you feel part of the meta reasoning
-capability that it had was based on
-learning and and you could sit down the
-next day and you could just feel that it
-had got a lot smarter boom you know and
-all the sudden you really felt like you
-sort of pressed against
-the wall because it was it was much more
-aggressive and was totally unforgiving
-of any minor mistake that you might make
-and and actually it seemed understood
-the game better than I did and you know
-Gary Kasparov has this quote weary
-during his match against deep blue he
-said he suddenly felt that there was a
-new kind of intelligence across the
-board do you think that's a scary or an
-exciting possibility that's prevent for
-yourself in in the context of chess
-purely sort of in this like that feeling
-whatever that is I think it's definitely
-an exciting feeling you know this is
-what made me work on AI in the first
-place was as soon as I really understood
-what a computer was I wanted to make it
-smart you know I started out with the
-first program I wrote was for the
-sinclair programmable calculator and i
-think you could write a 21 step
-algorithm that was the biggest program
-you could write something like that and
-do little arithmetic calculations so I
-say think I implemented Newton's method
-for square roots and a few other things
-like that
-um but then you know I thought okay if I
-just had more space I could make this
-thing intelligent
-and so I started thinking about AI and
-and I think the the the thing that's
-scary is not is not the chess program
-because you know chess programs they're
-not in they're taking over the world
-business but if you extrapolate
-you know there are things about chess
-that don't resemble the real world right
-we know we know the rules of chess
-chess board is completely visible to the
-programmer of course the real world is
-not most you most the real world is not
-visible from wherever you're sitting so
-to speak
-and to overcome those kinds of problems
-you need qualitatively different
-algorithms another thing about the real
-world is that you know we we regularly
-plan ahead on the timescales involving
-billions or trillions of steps now we
-don't plan that was in detail but you
-know when you choose to do a PhD at
-Berkeley
-that's a five-year commitment and that
-amounts to about a trillion motor
-control steps that you will eventually
-be committed to including going up the
-stairs opening doors drinking water type
-yeah I mean every every finger movement
-while you're typing every character of
-every paper and the thesis and
-everything else so you're not commuting
-in advance to the specific motor control
-steps but you're still reasoning on a
-timescale that will eventually reduce to
-trillions of motor control actions and
-so for all these reasons
-you know alphago and and deep blue and
-so on don't represent any kind of threat
-to humanity but they are a step towards
-it right near that and progress in AI
-occurs by essentially removing one by
-one these assumptions that make problems
-easy like the assumption of complete
-observability of the situation right we
-remove that assumption you need a much
-more complicated kind of a computing
-design and you need something that
-actually keeps track of all the things
-you can't see and tries to estimate
-what's going on and there's inevitable
-uncertainty in that so it becomes a much
-more complicated problem but you know we
-are removing those assumptions we are
-starting to have algorithms that can
-cope with much longer timescales
-they can cope with uncertainty they can
-cope with partial observability
-and so each of those steps sort of
-magnifies by a thousand the range of
-things that we can do with AI systems so
-the way I started me I wanted to be a
-psychiatrist for long time to understand
-the mind in high school and of course
-program and so on and then I showed up
-University of Illinois to an AI lab and
-they said okay I don't have time for you
-but here's a book AI a modern approach I
-think was the first edition at the time
-mmm here go go learn this and I remember
-the lay of the land was well it's
-incredible that we solve chess but we'll
-never solve go I mean it was pretty
-certain that go in the way we thought
-about systems that reason was impossible
-to solve and now we've solved this as a
-very I think I would have said that it's
-unlikely we could take the kind of
-algorithm that was used for chess and
-just get it to scale up and work well
-for go
-and at the time what we thought was that
-in order to solve go we would have to do
-something similar to the way humans
-manage the complexity of go which is to
-break it down into kind of sub games so
-when a human thinks about a go board
-they think about different parts of the
-board as sort of weakly connected to
-each other and they think about okay
-within this part of the board here's how
-things could go and that part about his
-how things could go and now you try to
-sort of couple those two analyses
-together and deal with the interactions
-and maybe revise your views of how
-things are going to go in each part and
-then you've got maybe five six seven ten
-parts of the board and that actually
-resembles the real world much more than
-chess does because in the real world you
-know we have work we have home life we
-have sport you know whatever different
-kinds of activities you know shopping
-these all are connected to each other
-but they're weakly connected so when I'm
-typing a paper you know I don't simul
-taneous Li have to decide which order
-I'm gonna get the you know the milk and
-the butter you know that doesn't affect
-the typing but I do need to realize okay
-better finish this before the shops
-closed because I don't have anything you
-don't have any food at home all right
-right so there's some weak connection
-but not in the way that chess works
-where everything is tied into a single
-stream of thought so the thought was
-that go just sort of go we'd have to
-make progress on stuff that would be
-useful for the real world and in a way
-alphago is a little bit disappointing
-right because the the program designed
-for alphago was actually not that
-different from from deep blue or even
-from Arthur Samuels checker playing
-program from the 1950s
-and in fact the so the two things that
-make alphago work is one one is is
-amazing ability ability to evaluate the
-positions and the other is the
-meta-reasoning capability which which
-allows it to to explore some paths in
-the tree very deeply and to abandon
-other paths very quickly so this word
-meta-reasoning while technically correct
-inspires perhaps the the wrong degree of
-power that alphago has for example the
-word reasonings as a powerful word let
-me ask you sort of so you were part of
-the symbolic AI world for a while like
-whatever the AI was there's a lot of
-excellent interesting ideas there that
-unfortunately met a winter and so it do
-you think it really emerges well I would
-say yeah it's not quite as simple as
-that so the the AI winter so for the
-first window that was actually named as
-such was the one in the late 80s
-and that came about because in the mid
-80s there was a really a concerted
-attempt to push AI out into the real
-world using what was called expert
-system technology and for the most part
-that technology was just not ready for
-primetime
-they were trying in many cases to do a
-form of uncertain reasoning judge you
-know judgment combinations of evidence
-diagnosis those kinds of things which
-was simply invalid and when you try to
-apply invalid reasoning methods to real
-problems you can fudge it for small
-versions of the problem but when it
-starts to get larger the thing just
-falls apart so many companies found that
-the stuff just didn't work and they were
-spending tons of money on consultants to
-try to make it work and
-there were you know other practical
-reasons like you know they they were
-asking the companies to buy incredibly
-expensive lisp machine workstations
-which were literally between fifty and a
-hundred thousand dollars in you know in
-1980s money which was would be like
-between a hundred and fifty and three
-hundred thousand dollars per workstation
-in current prices so then the bottom
-line they weren't seeing a profit from
-it yeah
-they in many cases I think there were
-some successes there's no doubt about
-that but people I would say over
-invested every major company was
+down the side 
+
+and then you follow that right and and in some sense when when a
+chess player is following a line and in his or her mind they're they mentally
+simulating what the other person is gonna do while the opponent is gonna do
+and they can do that as long as the moves are kind of forced right as long
+as there's a you know there's a fourth we call a forcing variation where the
+opponent doesn't really have much choice how to respond and then you see if you
+can force them into a situation where you win you know. We see plenty of
+mistakes even even in Grandmaster games where they just miss some simple three
+four five move combination that you know wasn't particularly apparent in in the
+position but we're still there. 
+
+[Lex] That's the thing that makes us human.
+yeah so when you mentioned that in a fellow those games were after some meta
+reasoning improvements and research I was able to beat you, how did that make
+you feel?
+
+[Stuart] Part of the meta reasoning capability that it had was based on learning and and you could sit down the next day and you could just feel that it had got a lot smarter boom you know and all the sudden you really felt like you sort of pressed against
+the wall because it was it was much more aggressive and was totally unforgiving
+of any minor mistake that you might make and actually it seemed understood
+the game better than I did and you know. Gary Kasparov has this quote weary
+during his match against deep blue he said he suddenly felt that there was a
+new kind of intelligence across the board.
+
+[Lex] Do you think that's a scary or an exciting possibility that's prevent for
+yourself in in the context of chess purely sort of in this like that feeling
+whatever that is?
+
+[Stuart] I think it's definitely an exciting feeling you know this is what made me work on AI in the first place was as soon as I really understood what a computer was I wanted to make it smart you know I started out with the first program I wrote was for the
+Sinclair programmable calculator and i think you could write a 21 step algorithm that was the biggest program you could write something like that and do little arithmetic calculations so I say think I implemented Newton's method for square roots and a few other things like that um but then you know I thought okay if I just had more space I could make this thing intelligent and so I started thinking about AI and and I think the thing that's scary is not is not the chess program because you know chess programs they're not in they're taking over the world business but if you extrapolate ... you know there are things about chess that don't resemble the real world right we know we know the rules of chess chess board is completely visible to the programmer of course the real world is not most you most the real world is not visible from wherever you're sitting so
+to speak and to overcome those kinds of problems you need qualitatively different
+algorithms another thing about the real world is that you know we we regularly
+plan ahead on the timescales involving billions or trillions of steps now we
+don't plan that was in detail but you know when you choose to do a PhD at
+Berkeley that's a five-year commitment and that amounts to about a trillion motor
+control steps that you will eventually be committed to ...
+
+[Lex] Including going up the stairs opening doors drinking water type
+
+[Stuart] I mean every every finger movement while you're typing every character of
+every paper and the thesis and everything else so you're not commuting
+in advance to the specific motor control steps but you're still reasoning on a
+timescale that will eventually reduce to trillions of motor control actions and
+so for all these reasons you know alphago and and deep blue and so on don't represent any kind of threat to humanity but they are a step towards it right near that and progress in AI occurs by essentially removing one by one these assumptions that make problems
+easy like the assumption of complete observability of the situation right we remove that assumption you need a much more complicated kind of a computing design and you need something that actually keeps track of all the things you can't see and tries to estimate what's going on and there's inevitable uncertainty in that so it becomes a much
+more complicated problem but you know we are removing those assumptions we are
+starting to have algorithms that can cope with much longer timescales, they can cope with uncertainty they can cope with partial observability and so each of those steps sort of magnifies by a thousand the range of things that we can do with AI systems.
+
+[Lex] so the way I started me I wanted to be a psychiatrist for long time to understand
+the mind in high school and of course program and so on and then I showed up
+University of Illinois to an AI lab and they said okay I don't have time for you
+but here's a book AI a modern approach I think was the first edition at the time
+mmm here go go learn this and I remember the lay of the land was well it's
+incredible that we solve chess but we'll never solve go I mean it was pretty
+certain that go in the way we thought about systems that reason was impossible
+to solve and now we've solved this as a very ...
+
+[Stuart] I think I would have said that it's unlikely we could take the kind of
+algorithm that was used for chess and just get it to scale up and work well
+for go. And at the time what we thought was that in order to solve go we would have to do something similar to the way humans manage the complexity of go which is to
+break it down into kind of sub games so when a human thinks about a go board
+they think about different parts of the board as sort of weakly connected to
+each other and they think about okay within this part of the board here's how
+things could go and that part about his how things could go and now you try to
+sort of couple those two analyses together and deal with the interactions
+and maybe revise your views of how things are going to go in each part and
+then you've got maybe five, six, seven, ten parts of the board and that actually
+resembles the real world much more than chess does because in the real world you
+know we have work, we have home life, we have sport you know whatever different
+kinds of activities you know shopping these all are connected to each other
+but they're weakly connected so when I'm typing a paper you know I don't simultaneous Li have to decide which order I'm gonna get the you know the milk and
+the butter you know that doesn't affect the typing but I do need to realize okay
+better finish this before the shops closed because I don't have anything you
+don't have any food at home all right right so there's some weak connection
+but not in the way that chess works where everything is tied into a single
+stream of thought. So the thought was that go just sort of go we'd have to
+make progress on stuff that would be useful for the real world and in a way
+alphago is a little bit disappointing right because the program designed
+for alphago was actually not that different from from deep blue or even
+from Arthur Samuels checker playing program from the 1950s and in fact the so the two things that make alphago work is one one is amazing ability ability to evaluate the
+positions and the other is the meta-reasoning capability which which
+allows it to to explore some paths in the tree very deeply and to abandon
+other paths very quickly.
+
+[Lex] So this word meta-reasoning while technically correct inspires perhaps the the wrong degree of power that alphago has for example the word reasonings as a powerful word let me ask you sort of so you were part of the symbolic AI world for a while like
+whatever the AI was there's a lot of excellent interesting ideas there that
+unfortunately met a winter and so it do you think it really emerges?
+
+[Stuart] well I would say yeah it's not quite as simple as that so the the AI winter so for the first winter that was actually named as such was the one in the late 80s
+and that came about because in the mid 80s there was a really a concerted
+attempt to push AI out into the real world using what was called expert
+system technology and for the most part that technology was just not ready for
+primetime. They were trying in many cases to do a form of uncertain reasoning judge you know judgment combinations of evidence diagnosis those kinds of things which
+was simply invalid and when you try to apply invalid reasoning methods to real
+problems you can fudge it for small versions of the problem but when it
+starts to get larger the thing just falls apart so many companies found that
+the stuff just didn't work and they were spending tons of money on consultants to
+try to make it work and there were you know other practical reasons like you know they they were asking the companies to buy incredibly expensive Lisp machine workstations
+which were literally between fifty and a hundred thousand dollars in you know in
+1980s money which was would be like between a hundred and fifty and three
+hundred thousand dollars per workstation in current prices 
+
+[Lex] so then the bottom line they weren't seeing a profit from it yeah
+they in many cases I think there were some successes there's no doubt about
+that but people I would say over invested every major company was
 starting an AI department just like now
 and I worry a bit that we might see
 similar disappointments not because the
