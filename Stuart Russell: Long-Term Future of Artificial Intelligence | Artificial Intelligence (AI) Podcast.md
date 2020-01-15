@@ -8,46 +8,19 @@
 
 ## Introduction by Lex Fridman
 
-﻿the following is a conversation with
-Stuart Russell he's a professor of
-computer science at UC Berkeley and a
-co-author of a book that introduced me
-and millions of other people to the
-amazing world of AI called artificial
-intelligence a modern approach so it was
-an honor for me to have this
-conversation as part of MIT course and
-artificial general intelligence and the
-artificial intelligence podcast if you
-enjoy it please subscribe on youtube
-itunes or your podcast provider of
-choice or simply connect with me on
-twitter at Lex Friedman spelled Fri D
-and now here's my conversation with
-Stuart Russell so you've mentioned in
-1975 in high school you've created one
-year first AI programs that play chess
-were you ever able to build a program
-that beat you a chess or another board
-game so my program never beat me at
-chess I actually wrote the program at
-Imperial College so I used to take the
-bus every Wednesday with a box of cards
-this big and shove them into the card
-reader and they gave us eight seconds of
-CPU time
-it took about five seconds to read the
-cards in and compile the code so we had
-three seconds of CPU time which was
-enough to make one move you know with a
-not very deep search and then we would
-print that move out and then we'd have
-to go to the back of the queue and wait
-to feed the cards in again how do you
-post a search well I would talk to no I
-think we got we got an eight move eight
-you know depth eight with alpha beta and
-we had some tricks of our own about move
+The following is a conversation with Stuart Russell. He's a professor of Computer Science at UC Berkeley and a co-author of a book that introduced me -and millions of other people-, to the amazing world of AI called "Artificial Intelligence: A Modern Approach". So, it was an honor for me to have this conversation as part of MIT course and Artificial General Intelligence (AGI), and the Artificial Intelligence podcast. If you enjoy it, please subscribe on YouTube, iTunes, or your podcast provider of choice. Or simply connect with me on Twitter at Lex Friedman, spelled F.R.I.D.M.A.N. And now here's my conversation with Stuart Russell.
+
+[Lex] You've mentioned in 1975, in high school, you've created one year first AI programs that play chess were you ever able to build a program that beat you a chess or another board game?
+
+[Stuart] My program never beat me at chess. I actually wrote the program at
+Imperial College so I used to take the bus every Wednesday with a box of cards
+this big and shove them into the card reader and they gave us eight seconds of
+CPU time. It took about five seconds to read the cards in and compile the code so we had
+three seconds of CPU time which was enough to make one move you know with a 
+not very deep search and then we would print that move out and then we'd have
+to go to the back of the queue and wait to feed the cards in again how do you
+post a search well I would talk to no I think we got we got an eight move eight
+you know depth eight with alpha beta and we had some tricks of our own about move
 ordering and some pruning of the tree
 and we were still able to beat that
 program yeah yeah I I was a reasonable
