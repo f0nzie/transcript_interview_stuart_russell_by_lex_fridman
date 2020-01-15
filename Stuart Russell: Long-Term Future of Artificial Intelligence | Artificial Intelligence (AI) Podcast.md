@@ -21,57 +21,33 @@ not very deep search and then we would print that move out and then we'd have
 to go to the back of the queue and wait to feed the cards in again how do you
 post a search well I would talk to no I think we got we got an eight move eight
 you know depth eight with alpha beta and we had some tricks of our own about move
-ordering and some pruning of the tree
-and we were still able to beat that
-program yeah yeah I I was a reasonable
-chess player in my youth I did Anna
-fellow program and a backgammon program
-so when I go to Berkley I worked a lot
-on what we call meta reasoning which
-really means reasoning about reasoning
-and in the case of a game playing
-program you need to reason about what
-parts of the search tree you're actually
-going to explore because the search tree
-is enormous or you know bigger than the
-number of atoms in the universe and the
-way programs succeed and the way humans
-succeed is by only looking at a small
-fraction of the search tree and if you
-look at the right fraction you play
-really well if you look at the wrong
-fraction if you waste your time thinking
-about things that are never gonna happen
-the moves that no one's ever gonna make
-then you're gonna lose because you you
-won't be able to figure out the right
-decision
-so that question of how machines can
-manage their own computation either how
-they decide what to think about
-is the meta-reasoning question we
-developed some methods for doing that
-and very simply a machine should think
-about whatever thoughts are going to
-improve its decision quality we were
-able to show that both for a fellow
-which is a standard to play game and for
-backgammon which includes dice for also
-it's a two-player game with uncertainty
-for both of those cases we could come up
-with algorithms that were actually much
-more efficient than the standard alpha
-beta search which chess programs at the
-time we're using and that those programs
-could beat me and I think you can see
-same basic ideas in alphago and alpha
-zero today the way they explored the
-tree is using a former meta reasoning to
-select what to think about based on how
-useful it is to think about it is there
-any insights you can describe without
-Greek symbols of how do we select which
-paths to go down there's really two
+ordering and some pruning of the tree and we were still able to beat that
+program yeah yeah I I was a reasonable chess player in my youth I did Anna
+fellow program and a backgammon program so when I go to Berkeley I worked a lot
+on what we call meta reasoning which really means reasoning about reasoning
+and in the case of a game playing program you need to reason about what
+parts of the search tree you're actually going to explore because the search tree
+is enormous or you know bigger than the number of atoms in the universe and the
+way programs succeed and the way humans succeed is by only looking at a small
+fraction of the search tree, and if you look at the right fraction you play
+really well if you look at the wrong fraction if you waste your time thinking
+about things that are never gonna happen the moves that no one's ever gonna make,
+then you're gonna lose because you you won't be able to figure out the right
+decision. So, that question of how machines can manage their own computation either how
+they decide what to think about is the meta-reasoning question we
+developed some methods for doing that and very simply a machine should think
+about whatever thoughts are going to improve its decision quality. We were
+able to show that both for a fellow which is a standard to play game and for
+backgammon which includes dice for also it's a two-player game with uncertainty. For both of those cases we could come up with algorithms that were actually much
+more efficient than the standard alpha-beta search which chess programs at the
+time we're using and that those programs could beat me and I think you can see
+same basic ideas in AlphaGo and alpha zero. Today the way they explored the
+tree is using a former meta reasoning to select what to think about based on how
+useful it is to think about it.
+
+[Lex] Is there any insights you can describe without Greek symbols of how do we select which paths to go down?
+
+[Stuart] there's really two
 kinds of learning going on so as you say
 alphago learns to evaluate board
 position so it can it can look at a go

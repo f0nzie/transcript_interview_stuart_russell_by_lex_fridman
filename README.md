@@ -1,1 +1,1 @@
-/home/msfz751/markdown/transcripts/stuart_russell/Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.md
+Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.md
