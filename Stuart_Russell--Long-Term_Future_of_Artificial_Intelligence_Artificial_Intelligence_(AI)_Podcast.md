@@ -282,112 +282,113 @@ All references in the web: https://www.one-tab.com/page/_kfXhNtyRA6Mk6ehUthPOw
 
 ![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895.png)        [Pamela McCorduck - Wikipedia](https://en.wikipedia.org/wiki/Pamela_McCorduck)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Arthur Samuel - Wikipedia](https://en.wikipedia.org/wiki/Arthur_Samuel)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403490106.png)        [Arthur Samuel - Wikipedia](https://en.wikipedia.org/wiki/Arthur_Samuel)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Lighthill report - Wikipedia](https://en.wikipedia.org/wiki/Lighthill_report)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403498809.png)        [Lighthill report - Wikipedia](https://en.wikipedia.org/wiki/Lighthill_report)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442924.png)        [Sam Harris | Home of the Making Sense Podcast](https://samharris.org/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442924.png)        [Sam Harris | Home of the Making Sense Podcast](https://samharris.org/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Debiasing - Wikipedia](https://en.wikipedia.org/wiki/Debiasing)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403510372.png)        [Debiasing - Wikipedia](https://en.wikipedia.org/wiki/Debiasing)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Rodney Brooks - Wikipedia](https://en.wikipedia.org/wiki/Rodney_Brooks)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403514024.png)        [Rodney Brooks - Wikipedia](https://en.wikipedia.org/wiki/Rodney_Brooks)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [AlphaGo - Wikipedia](https://en.wikipedia.org/wiki/AlphaGo)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403518488.png)        [AlphaGo - Wikipedia](https://en.wikipedia.org/wiki/AlphaGo)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442953.png)        [AlphaGo Zero: Starting from scratch | DeepMind](https://deepmind.com/blog/article/alphago-zero-starting-scratch)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442953.png)        [AlphaGo Zero: Starting from scratch | DeepMind](https://deepmind.com/blog/article/alphago-zero-starting-scratch)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442964.png)        [One Hundred Year Study on Artificial Intelligence (AI100) |](https://ai100.stanford.edu/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442964.png)        [One Hundred Year Study on Artificial Intelligence (AI100) |](https://ai100.stanford.edu/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [The Machine Stops - Wikipedia](https://en.wikipedia.org/wiki/The_Machine_Stops)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403533889.png)        [The Machine Stops - Wikipedia](https://en.wikipedia.org/wiki/The_Machine_Stops)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [E. M. Forster - Wikipedia](https://en.wikipedia.org/wiki/E._M._Forster)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403537136.png)        [E. M. Forster - Wikipedia](https://en.wikipedia.org/wiki/E._M._Forster)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Interstellar (film) - Wikipedia](https://en.wikipedia.org/wiki/Interstellar_(film))      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403540685.png)        [Interstellar (film) - Wikipedia](https://en.wikipedia.org/wiki/Interstellar_(film))      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Ex Machina (film) - Wikipedia](https://en.wikipedia.org/wiki/Ex_Machina_(film))      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403546659.png)        [Ex Machina (film) - Wikipedia](https://en.wikipedia.org/wiki/Ex_Machina_(film))      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [AlphaZero - Wikipedia](https://en.wikipedia.org/wiki/AlphaZero)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403551214.png)        [AlphaZero - Wikipedia](https://en.wikipedia.org/wiki/AlphaZero)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Lisp (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Lisp_(programming_language))      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403555223.png)        [Lisp (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Lisp_(programming_language))      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443015.png)        [MIT Deep Learning Lectures: Introduction, Tutorials, Videos, and Course Materials](https://deeplearning.mit.edu/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443015.png)        [MIT Deep Learning Lectures: Introduction, Tutorials, Videos, and Course Materials](https://deeplearning.mit.edu/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442882.png)        [Lex Fridman | MIT | Human-Centered AI & Autonomous Vehicles](https://lexfridman.com/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442882-1579403561220.png)        [Lex Fridman | MIT | Human-Centered AI & Autonomous Vehicles](https://lexfridman.com/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443026.png)        [MIT 6.S099: Artificial General Intelligence](https://agi.mit.edu/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443026.png)        [MIT 6.S099: Artificial General Intelligence](https://agi.mit.edu/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442882.png)        [Artificial Intelligence Podcast | AI Podcast | Lex Fridman](https://lexfridman.com/ai/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442882-1579403574554.png)        [Artificial Intelligence Podcast | AI Podcast | Lex Fridman](https://lexfridman.com/ai/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443036.png)        [Lex Fridman (@lexfridman) / Twitter](https://twitter.com/lexfridman?ref_src=twsrc^google|twcamp^serp|twgr^author)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443036.png)        [Lex Fridman (@lexfridman) / Twitter](https://twitter.com/lexfridman?ref_src=twsrc^google|twcamp^serp|twgr^author)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443042.png)        [Stuart Russell](https://people.eecs.berkeley.edu/~russell/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443042.png)        [Stuart Russell](https://people.eecs.berkeley.edu/~russell/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Lighthill report - Wikipedia](https://en.wikipedia.org/wiki/Lighthill_report)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403583693.png)        [Lighthill report - Wikipedia](https://en.wikipedia.org/wiki/Lighthill_report)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443062.png)        [Alan Turing | Biography, Facts, & Education | Britannica](https://www.britannica.com/biography/Alan-Turing)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062.png)        [Alan Turing | Biography, Facts, & Education | Britannica](https://www.britannica.com/biography/Alan-Turing)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443068.png)        [King Midas](https://www.greekmythology.com/Myths/Mortals/King_Midas/king_midas.html)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443068.png)        [King Midas](https://www.greekmythology.com/Myths/Mortals/King_Midas/king_midas.html)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443062.png)        [Norbert Wiener | American mathematician | Britannica](https://www.britannica.com/biography/Norbert-Wiener)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062-1579403592446.png)        [Norbert Wiener | American mathematician | Britannica](https://www.britannica.com/biography/Norbert-Wiener)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Markov decision process - Wikipedia](https://en.wikipedia.org/wiki/Markov_decision_process)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403595798.png)        [Markov decision process - Wikipedia](https://en.wikipedia.org/wiki/Markov_decision_process)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443091.png)        [The History of Utilitarianism (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/utilitarianism-history/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443091.png)        [The History of Utilitarianism (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/utilitarianism-history/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Food and Drug Administration - Wikipedia](https://en.wikipedia.org/wiki/Food_and_Drug_Administration)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403601377.png)        [Food and Drug Administration - Wikipedia](https://en.wikipedia.org/wiki/Food_and_Drug_Administration)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443107.png)        [california law impresonation - Google Search](https://www.google.com/search?client=ubuntu&channel=fs&q=california+law+impresonation&ie=utf-8&oe=utf-8)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443107.png)        [california law impresonation - Google Search](https://www.google.com/search?client=ubuntu&channel=fs&q=california+law+impresonation&ie=utf-8&oe=utf-8)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Atomic bombings of Hiroshima and Nagasaki - Wikipedia](https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403611402.png)        [Atomic bombings of Hiroshima and Nagasaki - Wikipedia](https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki)      
 
 ![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Chernobyl disaster - Wikipedia](https://en.wikipedia.org/wiki/Chernobyl_disaster)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [H. G. Wells - Wikipedia](https://en.wikipedia.org/wiki/H._G._Wells)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403613952.png)        [H. G. Wells - Wikipedia](https://en.wikipedia.org/wiki/H._G._Wells)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443062.png)        [Frederick Soddy | British chemist | Britannica](https://www.britannica.com/biography/Frederick-Soddy)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062-1579403617015.png)        [Frederick Soddy | British chemist | Britannica](https://www.britannica.com/biography/Frederick-Soddy)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Isotope - Wikipedia](https://en.wikipedia.org/wiki/Isotope)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403620050.png)        [Isotope - Wikipedia](https://en.wikipedia.org/wiki/Isotope)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443062.png)        [Ernest Rutherford | Accomplishments, Atomic Theory, & Facts | Britannica](https://www.britannica.com/biography/Ernest-Rutherford)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062-1579403623041.png)        [Ernest Rutherford | Accomplishments, Atomic Theory, & Facts | Britannica](https://www.britannica.com/biography/Ernest-Rutherford)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443062.png)        [Leo Szilard | American physicist | Britannica](https://www.britannica.com/biography/Leo-Szilard)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062-1579403629659.png)        [Leo Szilard | American physicist | Britannica](https://www.britannica.com/biography/Leo-Szilard)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Neutron - Wikipedia](https://en.wikipedia.org/wiki/Neutron)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403632210.png)        [Neutron - Wikipedia](https://en.wikipedia.org/wiki/Neutron)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Manhattan Project - Wikipedia](https://en.wikipedia.org/wiki/Manhattan_Project)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403634821.png)        [Manhattan Project - Wikipedia](https://en.wikipedia.org/wiki/Manhattan_Project)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443175.png)        [Rodney Brooks Home](https://people.csail.mit.edu/brooks/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443175.png)        [Rodney Brooks Home](https://people.csail.mit.edu/brooks/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443178.png)        [The gorilla problem | The Enlightened Economist](http://www.enlightenmenteconomics.com/blog/index.php/2019/10/the-gorilla-problem/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443178.png)        [The gorilla problem | The Enlightened Economist](http://www.enlightenmenteconomics.com/blog/index.php/2019/10/the-gorilla-problem/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [AI control problem - Wikipedia](https://en.wikipedia.org/wiki/AI_control_problem)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403644867.png)        [AI control problem - Wikipedia](https://en.wikipedia.org/wiki/AI_control_problem)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Lethal autonomous weapon - Wikipedia](https://en.wikipedia.org/wiki/Lethal_autonomous_weapon)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403651122.png)        [Lethal autonomous weapon - Wikipedia](https://en.wikipedia.org/wiki/Lethal_autonomous_weapon)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [WALL-E - Wikipedia](https://en.wikipedia.org/wiki/WALL-E)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403653281.png)        [WALL-E - Wikipedia](https://en.wikipedia.org/wiki/WALL-E)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Massive open online course - Wikipedia](https://en.wikipedia.org/wiki/Massive_open_online_course)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403655870.png)        [Massive open online course - Wikipedia](https://en.wikipedia.org/wiki/Massive_open_online_course)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443207.png)        [Stanford AI Safety](http://aisafety.stanford.edu/)      
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443107.png)        [provably - Google Search](https://www.google.com/search?client=ubuntu&channel=fs&q=provably&ie=utf-8&oe=utf-8)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443207.png)        [Stanford AI Safety](http://aisafety.stanford.edu/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Science fiction - Wikipedia](https://en.wikipedia.org/wiki/Science_fiction)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443107-1579403691814.png)        [provably - Google Search](https://www.google.com/search?client=ubuntu&channel=fs&q=provably&ie=utf-8&oe=utf-8)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Interstellar (film) - Wikipedia](https://en.wikipedia.org/wiki/Interstellar_(film))      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403695684.png)        [Science fiction - Wikipedia](https://en.wikipedia.org/wiki/Science_fiction)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [HAL 9000 - Wikipedia](https://en.wikipedia.org/wiki/HAL_9000)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403698293.png)        [Interstellar (film) - Wikipedia](https://en.wikipedia.org/wiki/Interstellar_(film))      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443240.png)        [TARS | Interstellar Wiki | Fandom](https://interstellarfilm.fandom.com/wiki/TARS)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403702894.png)        [HAL 9000 - Wikipedia](https://en.wikipedia.org/wiki/HAL_9000)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443245.png)        [4K Video Downloader | Free Video Downloader for PС, macOS and Linux | 4K Download](https://www.4kdownload.com/products/product-videodownloader)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443240.png)        [TARS | Interstellar Wiki | Fandom](https://interstellarfilm.fandom.com/wiki/TARS)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443252.png)        [Subtitle Edit 3.5.11 / 3.5.12 Beta Free Download - VideoHelp](https://www.videohelp.com/software/Subtitle-Edit)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443245.png)        [4K Video Downloader | Free Video Downloader for PС, macOS and Linux | 4K Download](https://www.4kdownload.com/products/product-videodownloader)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443260.png)        [Typora — a markdown editor, markdown reader.](https://www.typora.io/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443252.png)        [Subtitle Edit 3.5.11 / 3.5.12 Beta Free Download - VideoHelp](https://www.videohelp.com/software/Subtitle-Edit)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443270.png)        [GitHub](https://github.com/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443260.png)        [Typora — a markdown editor, markdown reader.](https://www.typora.io/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400443277.png)        [Free Git GUI Client - Windows, Mac & Linux | GitKraken](https://www.gitkraken.com/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443270.png)        [GitHub](https://github.com/)      
+
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443277.png)        [Free Git GUI Client - Windows, Mac & Linux | GitKraken](https://www.gitkraken.com/)      
 
 ## Links
 
