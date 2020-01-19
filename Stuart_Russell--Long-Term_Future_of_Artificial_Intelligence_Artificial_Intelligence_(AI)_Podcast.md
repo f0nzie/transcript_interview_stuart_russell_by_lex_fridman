@@ -2,8 +2,8 @@
 title: Transcript of interview to Stuart Russell by Lex Fridman
 author: Alfonso R. Reyes
 date: '2020-01-19'
+categories: [ai, artificial intelligence, transcript]
 typora-copy-images-to: ./assets
-categories: [ai, artificial intelligence]
 ---
 
 # Transcript of interview to Stuart Russell by Lex Fridman
