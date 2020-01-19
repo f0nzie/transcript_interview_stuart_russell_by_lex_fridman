@@ -1,10 +1,21 @@
+---
+title: Transcript of interview to Stuart Russell by Lex Fridman
+typora-copy-images-to: ./assets
+---
+
 # Transcript of interview to Stuart Russell by Lex Fridman
 
-This is a quick transcript of the interview of Stuart Russell by [Lex Fridman](https://www.linkedin.com/in/lexfridman). The interview has been published in [YouTube](https://youtu.be/KsZI5oXBC0k ) as well as a [podcast](https://lexfridman.com/stuart-russell/). This is a transcript I wanted to do for a long time. Stuart Russell is an authority on AI and coauthor of one of the best books on Artificial Intelligence. I have learned so much listening to the interview; checking his references; the subjects and personalities he mentioned. parallels in history that are worth considering in AI. It is simply breathtaking! . Enjoy! *Alfonso R. Reyes. The Woodlands, Texas.* Jan 18, 2020.
+![image-20200119130037529](assets/image-20200119130037529.png)
+
+
 
 ## Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast | Dec 9, 2018
 
+This is a quick transcript of the interview of Stuart Russell by [Lex Fridman](https://www.linkedin.com/in/lexfridman). The interview has been published in [YouTube](https://youtu.be/KsZI5oXBC0k ) as well as a [podcast](https://lexfridman.com/stuart-russell/). This is a transcript I wanted to do for a long time. Stuart Russell is an authority on AI and coauthor of one of the best books on Artificial Intelligence. I have learned so much listening to the interview; checking his references; the subjects and personalities he mentioned. parallels in history that are worth considering in AI. It is simply breathtaking! . Enjoy! 
 
+*Alfonso R. Reyes. The Woodlands, Texas.* Jan 18, 2020.
+
+<br>
 
 ## Introduction by Lex Fridman
 
@@ -14,7 +25,7 @@ The following is a conversation with Stuart Russell. He's a professor of Compute
 
 **[Lex]** You've mentioned in 1975, in high school, you've created one year first AI programs that play chess. Were you ever able to build a program that beat you at chess or another board game?
 
-**[Stuart]** My program never beat me at chess. I actually wrote the program at Imperial College. I used to take the bus every Wednesday with a box of cards this big, and shove them into the card reader and they gave us eight seconds of CPU time. It took about five seconds to read the cards in and compile the code, so, we had three seconds of CPU time which was enough to make one move. You know with a not very deep search, and then we would print that move out and then we'd have to go to the back of the queue and wait to feed the cards in again.
+**[Stuart]** My program never beat me at chess. I actually wrote the program at Imperial College. I used to take the bus every Wednesday with a box of cards this big, and shove them into the card reader and they gave us eight seconds of CPU time. It took about five seconds to read the cards in and compile the code. So, we had three seconds of CPU time which was enough to make one move. You know, with a not very deep search, and then we would print that move out, and then we'd have to go to the back of the queue and wait to feed the cards in again.
 
 **[Lex]** How do you post a search?
 
@@ -26,51 +37,51 @@ The following is a conversation with Stuart Russell. He's a professor of Compute
 
 **[Lex]** Is there any insights you can describe without Greek symbols of how do we select which paths to go down?
 
-**[Stuart]** There's really two kinds of learning going on. So, as you say AlphaGo learns to evaluate board positions; so it can it can look at a Go board and it actually has probably a superhuman ability to instantly tell how promising that situation is. To me the amazing thing about AlphaGo is not that it can be the world champion with its hands tied behind his back, but the fact that if you stop it from searching altogether - so, you say: okay you're not allowed to do any thinking ahead, right? You can just consider each of your legal moves and then look at the resulting situation and evaluate it, so what we call a depth-one search, so just the immediate outcome of your moves and decide if that's good or bad. That version of AlphaGo can still play at a professional level, right? And human professionals are sitting there for five, ten minutes deciding what to do, and AlphaGo, in less than a second, instantly into it what is the right move to make based on its ability to evaluate positions. And that is remarkable because we don't have that level of intuition about Go, we actually have to think about the situation. So, anyway, that capability that AlphaGo has is one big part of why it beats humans. The other big part is that it's able to look ahead 40, 50, 60 moves into the future. And you know, if it was considering all possibilities -40 or 50 or 60 moves into the future-, that would be you know 10 to the 200 ($10^{200}$) possibilities, so way, way more than you know atoms in the universe, and so on. So, it's very very selective about what it looks at. So, let me try to give you an intuition about how you decide what to think about. It's a combination of two things: one is how promising it is. If you're already convinced that a move is terrible, there's no point spending a lot more time convincing yourself that it's terrible because it's probably not gonna change your mind. So, the real reason you think is because there's some possibility of changing your mind about what to do, right? And that changing your mind that would result then in a better final action in the real world so that's the purpose of thinking is to improve the final action in the real world. And so if you think about a move that is guaranteed to be terrible, you can convince yourself is terrible, and you're still not gonna change your mind all, right? But on the other hand you I suppose you had a choice between two moves one of them you've already figured out is guaranteed to be a draw, let's say. And then the other one looks a little bit worse like it looks fairly likely that if you make that move you're gonna lose but there's still some uncertainty about the value of that move. There's still some possibility that it will turn out to be a win. Then it's worth thinking about that so even though it's less promising on average than the other move, which is guaranteed to be a draw, there's still some purpose in thinking about it because there's a chance that you will change your mind and discover that in fact it's a better move. So, it's a combination of how good the move appears to be and how much I'm certainty there is about its value. The more uncertainty, the more it's worth thinking about because there's a higher upside if you want to think of it that way.
+**[Stuart]** There's really two kinds of learning going on. So, as you say, AlphaGo learns to evaluate board positions; so it can look at a Go board and it actually has probably a superhuman ability to instantly tell how promising that situation is. To me the amazing thing about AlphaGo is not that it can be the world champion with its hands tied behind his back, but the fact that if you stop it from searching altogether - so, you say: okay you're not allowed to do any thinking ahead, right? You can just consider each of your legal moves and then look at the resulting situation and evaluate it; so, what we call a depth-one search, so just the immediate outcome of your moves and decide if that's good or bad. That version of AlphaGo can still play at a professional level, right? And human professionals are sitting there for five, ten minutes deciding what to do, and AlphaGo, in less than a second, instantly into it what is the right move to make based on its ability to evaluate positions. And that is remarkable because we don't have that level of intuition about Go. We actually have to think about the situation. So, anyway, that capability that AlphaGo has is one big part of why it beats humans. The other big part is that it's able to look ahead 40, 50, 60 moves into the future. And you know, if it was considering all possibilities -40 or 50 or 60 moves into the future-, that would be you know 10 to the 200 ($10^{200}$) possibilities, so way, way more than you know atoms in the universe, and so on. So, it's very, very selective about what it looks at. So, let me try to give you an intuition about how you decide what to think about. It's a combination of two things: one is how promising it is. If you're already convinced that a move is terrible, there's no point spending a lot more time convincing yourself that it's terrible because it's probably not gonna change your mind. So, the real reason you think is because there's some possibility of changing your mind about what to do, right? And that changing your mind that would result then in a better final action in the real world, so that's the purpose of thinking is to improve the final action in the real world. And so if you think about a move that is guaranteed to be terrible, you can convince yourself is terrible, and you're still not gonna change your mind all, right? But on the other hand you I suppose you had a choice between two moves one of them you've already figured out is guaranteed to be a draw, let's say. And then the other one looks a little bit worse like it looks fairly likely that if you make that move you're gonna lose but there's still some uncertainty about the value of that move. There's still some possibility that it will turn out to be a win. Then it's worth thinking about that so even though it's less promising on average than the other move, which is guaranteed to be a draw, there's still some purpose in thinking about it because there's a chance that you will change your mind and discover that in fact it's a better move. So, it's a combination of how good the move appears to be and how much uncertainty there is about its value. The more uncertainty, the more it's worth thinking about because there's a higher upside if you want to think of it that way.
 
 **[Lex]** And of course in the beginning, especially in the AlphaGo Zero formulation, it's everything is shrouded in uncertainty, so you're really swimming in a sea of uncertainty so it benefits you too. I mean, actually following the same process as you described but because you're so uncertain about everything you basically have to try a lot of different directions?
 
-**[Stuart]** Yeah. So, the early parts of the search tree, a fairly bushy, that it will when looking a lot of different possibilities but fairly quickly the degree of certainty about some of the moves, I mean if moves are really terrible you'll pretty quickly find out right; you lose half your pieces or half your territory, and then you'll say okay this this is not worth thinking about any more, and then so a further down the tree becomes very long and narrow and you're following various lines of play, you know, 10, 20, 30, 40, 50 moves into the future, and you know that's again it's something that human beings have a very hard time doing mainly because they just lacked the short-term memory. You just can't remember a sequence of moves that's 50 moves long, and you can't you can't imagine the board correctly for that many moves into the future.
+**[Stuart]** Yeah. So, the early parts of the search tree are fairly bushy, that it will ..., when looking a lot of different possibilities but fairly quickly the degree of certainty about some of the moves, I mean if moves are really terrible you'll pretty quickly find out right; you lose half your pieces or half your territory, and then you'll say "okay, this this is not worth thinking about any more". And then so a further down the tree becomes very long and narrow and you're following various lines of play, you know, 10, 20, 30, 40, 50 moves into the future, and you know that's again it's something that human beings have a very hard time doing mainly because they just lacked the short-term memory. You just can't remember a sequence of moves that's 50 moves long, and you can't you can't imagine the board correctly for that many moves into the future.
 
-**[Lex]** Of course the top players- I'm much more familiar with chess-, but the top players probably have they have echoes of the same kind of intuition instinct that in a moment's time AlphaGo applies when they see a board, I mean they've seen those patterns human beings have seen those patterns before at the top at the Grand-master level. It seems that there is some similarities, or maybe it's it's our imagination, creates a vision of those similarities, but it feels like this kind of pattern recognition that the AlphaGo approaches are using is similar to what human beings at the top level, what do you think?
+**[Lex]** Of course the top players- I'm much more familiar with chess-, but the top players probably have they have echoes of the same kind of intuition instinct that in a moment's time AlphaGo applies when they see a board, I mean they've seen those patterns human beings have seen those patterns before at the top at the Grand-master level. It seems that there is some similarities, or maybe it's our imagination, creates a vision of those similarities, but it feels like this kind of pattern recognition that the AlphaGo approaches are using is similar to what human beings at the top level, what do you think?
 
-**[Stuart]** I think there's there's some truth to that ...
+**[Stuart]** I think there's some truth to that ...
 
 **[Lex]** But not entirely. 
 
 **[Stuart]** Yeah. I mean, I think to the extent to which a human Grand-master can reliably wreak instantly recognize the right move instantly recognize the value of a position I think that's a little bit overrated ...
 
-**[Lex]** But if you sacrifice a queen, for example, I mean, there's these beautiful games of chess with Bobby Fischer somebody where it's seeming to make a bad move, and I'm not sure there's a a perfect degree of calculation involved, where they've calculated all the possible things that happen but there's an instinct there, right? That somehow adds up to the ...
+**[Lex]** But if you sacrifice a queen, for example, I mean, there's these beautiful games of chess with Bobby Fischer, somebody where it's seeming to make a bad move, and I'm not sure there's a a perfect degree of calculation involved, where they've calculated all the possible things that happen but there's an instinct there, right? That somehow adds up to the ...
 
 **[Stuart]** Yeah. I think what happens is you get a sense that there's some possibility in the position even if you make a weird-looking move that it opens up some some lines of calculation that otherwise would be definitely bad. And that intuition that there's something here in this position that might might yield a win.
 
 **[Lex]** Down the side ...
 
-**[Stuart]** And then you follow that ... and in some sense when when a chess player is following a line, and in his or her mind, they're they mentally simulating what the other person is gonna do while the opponent is gonna do, and they can do that as long as the moves are kind of forced, as long as there's a fourth we call a forcing variation where the opponent doesn't really have much choice how to respond, and then you see if you can force them into a situation where you win you know. We see plenty of mistakes even in Grand-master games where they just miss some simple three, four, five move combination that you know wasn't particularly apparent in the position but we're still there. 
+**[Stuart]** And then you follow that ... and in some sense when a chess player is following a line, and in his, or her mind, they're they mentally simulating what the other person is gonna do while the opponent is gonna do, and they can do that as long as the moves are kind of forced, as long as there's a fourth we call a forcing variation where the opponent doesn't really have much choice how to respond, and then you see if you can force them into a situation where you win. We see plenty of mistakes even in Grand-master games where they just miss some simple three, four, five move combination that you know wasn't particularly apparent in the position but we're still there. 
 
 **[Lex]** That's the thing that makes us human. So, when you mentioned that in a fellow those games were after some meta-reasoning improvements and research, was able to beat you, how did that make you feel?
 
 **[Stuart]** Part of the meta-reasoning capability that it had was based on learning, and you could sit down the next day and you could just feel that it had got a lot smarter. All the sudden you really felt like you sort of pressed against the wall because it was it was much more aggressive and was totally unforgiving of any minor mistake that you might make, and actually it seemed understood the game better than I did. Gary Kasparov has this quote. During his match against Deep Blue he said he suddenly felt that there was a new kind of intelligence across the board.
 
-**[Lex]** Do you think that's a scary or an exciting possibility? As for Kasparov and for yourself, in the context of chess, purely; sort of in this like that feeling whatever that is?
+**[Lex]** Do you think that's a scary or an exciting possibility? As for Kasparov, and for yourself, in the context of chess, purely; sort of in this like that feeling whatever that is?
 
-**[Stuart]** I think it's definitely an exciting feeling you know this is what made me work on AI in the first place. As soon as I really understood what a computer was I wanted to make it smart. I started out with the first program I wrote was for the Sinclair programmable calculator. And i think you could write a 21 step algorithm that was the biggest program you could write, something like that. And do little arithmetic calculations, so, I say think I implemented Newton's method for square roots and a few other things like that. But then I thought: okay, if I just had more space I could make this thing intelligent. And so I started thinking about AI. I think the thing that's scary is not is not the chess program because you know chess programs they're not in they're taking over the world business. But if you extrapolate ... there are things about chess that don't resemble the real world, right? We know the rules of chess. A chess board is completely visible to the programmer of course the real world is not most you most the real world is not visible from wherever you're sitting, so to speak, and to overcome those kinds of problems you need qualitatively different algorithms. Another thing about the real world is that you know we regularly plan ahead on the timescales involving billions or trillions of steps. Now we don't plan that was in detail but you know when you choose to do a PhD at Berkeley, that's a five-year commitment and that amounts to about a trillion motor-control steps that you will eventually be committed to. 
+**[Stuart]** I think it's definitely an exciting feeling. This is what made me work on AI in the first place. As soon as I really understood what a computer was I wanted to make it smart. I started out with the first program I wrote was for the Sinclair programmable calculator. And i think you could write a 21 step algorithm that was the biggest program you could write, something like that. And do little arithmetic calculations, so, I say think I implemented Newton's method for square roots and a few other things like that. But then I thought: okay, if I just had more space I could make this thing intelligent. And so I started thinking about AI. I think the thing that's scary is not the chess program because you know chess programs they're not in they're taking over the world business. But if you extrapolate ... there are things about chess that don't resemble the real world, right? We know the rules of chess. A chess board is completely visible to the programmer of course the real world is not most you most the real world is not visible from wherever you're sitting, so to speak, and to overcome those kinds of problems you need qualitatively different algorithms. Another thing about the real world is that you know we regularly plan ahead on the timescales involving billions or trillions of steps. Now we don't plan that was in detail but you know when you choose to do a PhD at Berkeley, that's a five-year commitment and that amounts to about a trillion motor-control steps that you will eventually be committed to. 
 
 **[Lex]** Including going up the stairs, opening doors, drinking water type 
 
-**[Stuart]** I mean every every finger movement while you're typing every character of every paper and the thesis and everything else. So you're not committing in advance to the specific motor-control steps but you're still reasoning on a timescale that will eventually reduce to trillions of motor-control actions. And for all these reasons you know AlphaGo and and Deep Blue, and so on, don't represent any kind of threat to humanity, but they are a step towards it. Progress in AI occurs by essentially removing one by one these assumptions that make problems easy like the assumption of complete observability of the situation. We remove that assumption, you need a much more complicated kind of a computing design, and you need something that actually keeps track of all the things you can't see and tries to estimate what's going on, and there's inevitable uncertainty in that; so it becomes a much more complicated problem. But we are removing those assumptions. We are starting to have algorithms that can cope with much longer timescales, they can cope with uncertainty, they can cope with partial observability, and so each of those steps sort of magnifies by a thousand the range of things that we can do with AI systems.
+**[Stuart]** I mean every every finger movement while you're typing every character of every paper, and the thesis, and everything else. So you're not committing in advance to the specific motor-control steps but you're still reasoning on a timescale that will eventually reduce to trillions of motor-control actions. And for all these reasons you know AlphaGo and and Deep Blue, and so on, don't represent any kind of threat to humanity, but they are a step towards it. Progress in AI occurs by essentially removing one by one these assumptions that make problems easy like the assumption of complete observability of the situation. We remove that assumption, you need a much more complicated kind of a computing design, and you need something that actually keeps track of all the things you can't see and tries to estimate what's going on, and there's inevitable uncertainty in that; so it becomes a much more complicated problem. But we are removing those assumptions. We are starting to have algorithms that can cope with much longer timescales, they can cope with uncertainty, they can cope with partial observability, and so each of those steps sort of magnifies by a thousand the range of things that we can do with AI systems.
 
-**[Lex]** The way I started wit AI: I wanted to be a psychiatrist for long time to understand the mind in High School and of course program and so on. And then I showed up University of Illinois to an AI lab, and they said okay I don't have time for you but here's a book "AI a Modern Approach" I think was the first edition at the time. Here, go go learn this, and I remember the lay of the land was, well it's incredible that we solve Chess but we'll never solve Go. I mean it was pretty certain that Go in the way we thought about systems that reason was impossible to solve and now we've solved this as a very ...
+**[Lex]** The way I started wit AI: I wanted to be a psychiatrist for long time to understand the mind in High School and of course program and so on. And then I showed up University of Illinois to an AI lab, and they said okay I don't have time for you but here's a book "AI a Modern Approach" I think was the first edition at the time. Here, go learn this, and I remember the lay of the land was, well it's incredible that we solve Chess but we'll never solve Go. I mean it was pretty certain that Go in the way we thought about systems that reason was impossible to solve and now we've solved this as a very ...
 
-**[Stuart]** I would have said that it's unlikely we could take the kind of algorithm that was used for chess, and just get it to scale up and work well for Go. And, at the time what we thought was that in order to solve Go we would have to do something similar to the way humans manage the complexity of Go, which is to break it down into kind of sub-games. When a human thinks about a Go board they think about different parts of the board as sort of weakly connected to each other. And they think about "okay, within this part of the board here's how things could go, and that part about his how things could go". And now you try to sort of couple those two analyses together, and deal with the interactions, and maybe revise your views of how things are going to go in each part and then you've got maybe five, six, seven, ten parts of the board. That actually resembles the real world much more than chess does because in the real world you know we have work, we have home life, we have sports, whatever different kinds of activities; shopping. These all are connected to each other but they're weakly connected. When I'm typing a paper you know I don't simultaneously have to decide which order I'm gonna get the you know the milk and the butter you know that doesn't affect the typing but I do need to realize okay better finish this before the shops closed because I don't have anything you don't have any food at home. There's some weak connection but not in the way that chess works where everything is tied into a single stream of thought. So, the thought was that Go, just sort of Go we'd have to make progress on stuff that would be useful for the real world and in a way AlphaGo is a little bit disappointing because the program designed for AlphaGo was actually not that different from from Deep Blue, or even from Arthur Samuels checker playing program from the 1950s. And in fact the the two things that make AlphaGo work is one is amazing ability ability to evaluate the positions, and the other is the meta-reasoning capability, which allows it to to explore some paths in the tree very deeply and to abandon other paths very quickly.
+**[Stuart]** I would have said that it's unlikely we could take the kind of algorithm that was used for chess, and just get it to scale up and work well for Go. And, at the time what we thought was that in order to solve Go we would have to do something similar to the way humans manage the complexity of Go, which is to break it down into kind of sub-games. When a human thinks about a Go board they think about different parts of the board as sort of weakly connected to each other. And they think about "okay, within this part of the board here's how things could go, and that part about this how things could go". And now you try to sort of couple those two analyses together, and deal with the interactions, and maybe revise your views of how things are going to go in each part and then you've got maybe five, six, seven, ten parts of the board. That actually resembles the real world much more than chess does because in the real world you know we have work, we have home life, we have sports, whatever different kinds of activities; shopping. These all are connected to each other but they're weakly connected. When I'm typing a paper you know I don't simultaneously have to decide which order I'm gonna get the you know the milk and the butter you know that doesn't affect the typing but I do need to realize "okay, better finish this before the shops closed", because I don't have anything you don't have any food at home. There's some weak connection but not in the way that chess works where everything is tied into a single stream of thought. So, the thought was that Go, just sort of Go we'd have to make progress on stuff that would be useful for the real world and in a way AlphaGo is a little bit disappointing because the program designed for AlphaGo was actually not that different from from Deep Blue, or even from Arthur Samuels checker playing program from the 1950s. And in fact the the two things that make AlphaGo work is: one, it's amazing ability to evaluate the positions, and the other is the meta-reasoning capability, which allows it to explore some paths in the tree very deeply and to abandon other paths very quickly.
 
-**[Lex]** So this word meta-reasoning. while technically correct, inspires perhaps the wrong degree of power that AlphaGo has. For example, the word reasoning as a powerful word. Let me ask you, you were part of the symbolic AI world for a while like whatever the AI was-, there's a lot of excellent interesting ideas there, that unfortunately met a winter, do you think it re-emerges?
+**[Lex]** So, this word meta-reasoning. while technically correct, inspires perhaps the wrong degree of power that AlphaGo has. For example, the word reasoning is a powerful word. Let me ask you, you were part of the symbolic AI world for a while like whatever the AI was-, there's a lot of excellent interesting ideas there, that unfortunately met a winter, do you think it re-emerges?
 
 **[Stuart]** Well, I would say ... yeah. It's not quite as simple as that ... the first AI winter, that was actually named as such, was the one in the late 80s, and that came about because in the mid 80s there was a really a concerted attempt to push AI out into the real world, using what was called expert system technology. And for the most part that technology was just not ready for prime time. They were trying, in many cases, to do a form of uncertain reasoning judgment combinations of evidence diagnosis those kinds of things which was simply invalid. And when you try to apply invalid reasoning methods to real problems -you can fudge it for small versions of the problem-, but when it starts to get larger, the thing just falls apart. Many companies found that the stuff just didn't work and they were spending tons of money on consultants to try to make it work, and there were other practical reasons like they were asking the companies to buy incredibly expensive [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) machine workstations which were, literally, between fifty and a hundred thousand dollars, in 1980s money, which would be like between a hundred and fifty and three hundred thousand dollars per workstation in current prices.
 
 **[Lex]** So, then the bottom line, they weren't seeing a profit from it?
 
-**[Stuart]** Yeah, in many cases. I think there were some successes, there's no doubt about that. But people I would say over-invested. Every major company was starting an AI department, just like now. And I worry a bit that we might see similar disappointments, not because the technology is invalid but it's limited in its scope, and it's almost the [unintelligible] of ... the scope problems that expert systems had so ...
+**[Stuart]** Yeah, in many cases. I think there were some successes, there's no doubt about that. But people, I would say, over-invested. Every major company was starting an AI department, just like now. And I worry a bit that we might see similar disappointments, not because the technology is invalid but it's limited in its scope, and it's almost the [unintelligible] of ... the scope problems that expert systems had so ...
 
 **[Lex]** What have you learned from that hype cycle, and what can we do to prevent another winter, for example?
 
@@ -78,23 +89,23 @@ The following is a conversation with Stuart Russell. He's a professor of Compute
 
 **[Lex]** That's a good line!
 
-**[Stuart]** And then, the other is that we might see a kind of very visible failure in some of the major application areas. And I think self-driving cars would be the flagship. I think, when you look at the history, so the first self-driving car was on the freeway driving itself changing lanes overtaking in 1987. So, it's more than 30 years and that kind of looks like where we are today right you know prototypes on the freeway changing lanes and overtaking. Now, I think significant progress has been made particularly on the perception side. We worked a lot on autonomous vehicles in the early mid 90s at Berkeley. We had our own big demonstrations. We we put congressmen into self-driving cars and had them zooming along the freeway. And the problem was clearly perception 
+**[Stuart]** And then, the other is that we might see a kind of very visible failure in some of the major application areas. And I think self-driving cars would be the flagship. I think, when you look at the history, so the first self-driving car was on the freeway driving itself changing lanes overtaking in 1987. So, it's more than 30 years and that kind of looks like where we are today right you know prototypes on the freeway changing lanes and overtaking. Now, I think significant progress has been made particularly on the perception side. We worked a lot on autonomous vehicles in the early mid 90s at Berkeley. We had our own big demonstrations. We we put congressmen into self-driving cars and had them zooming along the freeway. And the problem was clearly perception.
 
-**[Lex]** At the time the problem that perception 
+**[Lex]** At the time the problem that perception ...
 
 **[Stuart]** Yeah. In simulation, with perfect perception, you could actually show that you can drive safely for a long time; even if the other cars are misbehaving, and so on. But simultaneously we worked on machine vision for detecting cars and tracking pedestrians, and so on. And we couldn't get the reliability of detection and tracking up to a high enough particular level particularly in bad weather conditions nighttime, rainfall ...
 
 **[Lex]** Good enough for demos but perhaps not good enough to cover the general ...
 
-**[Stuart]** Yeah. The thing about driving is: suppose you're a taxi driver. You drive every day eight hours a day for ten years, right? That's a hundred million seconds of driving, and any one of those seconds you can make a fatal mistake. So, you're talking about eight nines of reliability, right? Now, if your vision system only detects ninety eight point three percent of the vehicles, right? That's sort of one on a bit nines of reliability. So, you have another seven orders of magnitude to go. And this is what people don't understand. They think "oh, because I had a successful demo I'm pretty much done". But you know you're not even within seven orders of magnitude of being done. And that's the difficulty and it's it's not there can I follow a white line that's not the problem, right? We follow a white line all the way across the country but it's the the weird stuff that happens ...
+**[Stuart]** Yeah. The thing about driving is: suppose you're a taxi driver. You drive every day eight hours a day for ten years, right? That's a hundred million seconds of driving, and any one of those seconds you can make a fatal mistake. So, you're talking about eight nines of reliability, right? Now, if your vision system only detects ninety eight point three percent of the vehicles, right? That's sort of one on a bit nines of reliability. So, you have another seven orders of magnitude to go. And this is what people don't understand. They think "oh, because I had a successful demo I'm pretty much done". But you know you're not even within seven orders of magnitude of being done. And that's the difficulty, and it's not that can I follow a white line. That's not the problem, right? We follow a white line all the way across the country but it's the the weird stuff that happens ...
 
 **[Lex]** it's some of the edge cases 
 
-**[Stuart]** Yeah, the edge cases. Other drivers doing weird things. So, if you talk to Google right. So, they had actually very classical architecture where you had machine vision which would detect all the other cars and pedestrians, and the white lines, and the road signs. And then basically that was fed into a logical database. And then you had a classical 1970s rule-based expert system telling you: "okay, if you're in the middle lane and there's a bicyclist in the right lane who is signaling this then, don't need to do that". Yeah, right. And what they found was that every day they go out and there'd be another situation that the rules didn't cover, so they they come to a traffic circle and there's a little girl riding a bicycle the wrong way around a traffic circle. Okay, what do you do we don't have a rule? Oh, my god, okay, stop. And then they come back and had more rules and they just found that this was not really converging. And if you think about it right, how do you deal with an unexpected situation, meaning one that you've never previously encountered and the sort of the the reasoning required to figure out the solution for that situation has never been done, it doesn't match any previous situation in terms of the kind of reasoning you have to do. Well, in chess programs this happens all the time. You're constantly coming up with situations you haven't seen before and you have to reason about them, you have to think about okay here are the possible things I could do here the outcomes here's how desirable the outcomes are and then pick the right one you know. In the 90s we were saying: "okay, this is how you're gonna have to do automated vehicles: they're gonna have to have a look ahead capability". But the look ahead for driving is more difficult than it is for chess because. Humans are less predictable.
+**[Stuart]** Yeah, the edge cases. Other drivers doing weird things. So, if you talk to Google, right. So, they had actually very classical architecture where you had machine vision which would detect all the other cars and pedestrians, and the white lines, and the road signs. And then basically that was fed into a logical database. And then you had a classical 1970s rule-based expert system telling you: "okay, if you're in the middle lane and there's a bicyclist in the right lane who is signaling this then, don't need to do that". Yeah, right. And what they found was that every day they go out and there'd be another situation that the rules didn't cover, so they they come to a traffic circle and there's a little girl riding a bicycle the wrong way around a traffic circle. Okay, what do you do we don't have a rule? Oh, my god, okay, stop. And then they come back and had more rules and they just found that this was not really converging. And if you think about it right, how do you deal with an unexpected situation, meaning one that you've never previously encountered and the sort of the the reasoning required to figure out the solution for that situation has never been done, it doesn't match any previous situation in terms of the kind of reasoning you have to do. Well, in chess programs this happens all the time. You're constantly coming up with situations you haven't seen before and you have to reason about them, you have to think about okay here are the possible things I could do here the outcomes here's how desirable the outcomes are and then pick the right one you know. In the 90s we were saying: "okay, this is how you're gonna have to do automated vehicles: they're gonna have to have a look ahead capability". But the look ahead for driving is more difficult than it is for chess because. Humans are less predictable.
 
-[Lex] than just a standard well then will 
+**[Lex]** than chess ...
 
-**[Stuart]** You have an opponent in chess, who's also somewhat unpredictable. But for example in chess you always know the opponent's intention: they're trying to beat you. Whereas in driving you don't know is this guy trying to turn left or has he just forgotten to turn off his turn signal or is he drunk or is he you know changing the channel on his radio or whatever it might be you got to try and figure out the mental state the intent of the other drivers to forecast the possible evolutions of their trajectories and then you've got to figure out okay which is the trajectory for me that's going to be safest, and those all interact with each other because the other drivers going to react to your trajectory, and so on. So you know they've got the classic merging onto the freeway a problem where you're kind of racing a vehicle that's already on the freeway, and you are you gonna pull ahead of them or you're gonna let them go first and pull in behind and you get this sort of uncertainty about who's going first. So all those kinds of things mean that you need decision-making architecture that's very different from either a rule-based system, or it seems to me a kind of an end-to-end neural network system you know. So just as AlphaGo is pretty good when it doesn't do any look ahead but it's way, way, way, way better when it does, I think the same is going to be true for driving. You can have a driving system that's pretty good when it doesn't do any look ahead, but that's not good enough. We've already seen multiple deaths caused by poorly designed machine learning algorithms that don't really understand what they're doing.
+**[Stuart]** You have an opponent in chess, who's also somewhat unpredictable. But for example in chess you always know the opponent's intention: they're trying to beat you. Whereas in driving you don't know is this guy trying to turn left, or has he just forgotten to turn off his turn signal, or is he drunk, or is he you know changing the channel on his radio, or whatever it might be you got to try and figure out the mental state the intent of the other drivers to forecast the possible evolutions of their trajectories and then you've got to figure out okay which is the trajectory for me that's going to be safest, and those all interact with each other because the other drivers going to react to your trajectory, and so on. So, they've got the classic merging onto the freeway, a problem where you're kind of racing a vehicle that's already on the freeway, and you are you gonna pull ahead of them, or you're gonna let them go first and pull in behind. And you get this sort of uncertainty about who's going first. So all those kinds of things mean that you need decision-making architecture that's very different from either a rule-based system, or it seems to me a kind of an end-to-end neural network system you know. So just as AlphaGo is pretty good when it doesn't do any look ahead but it's way, way, way, way better when it does, I think the same is going to be true for driving. You can have a driving system that's pretty good when it doesn't do any look ahead, but that's not good enough. We've already seen multiple deaths caused by poorly designed machine learning algorithms that don't really understand what they're doing.
 
 **[Lex]** Yeah. On several levels, I think it's on the perception side there's mistakes being made by those algorithms were the perception is very shallow. On the planning side, to look ahead like you said, and the thing that we come come up against. That's really interesting when you try to deploy systems in the real world is you can't think of an artificial intelligence system as a thing that responds to the world always. You have to realize that it's an agent that others will respond to as well so in order to drive successfully you can't just try to do obstacle avoidance. 
 
@@ -102,11 +113,11 @@ The following is a conversation with Stuart Russell. He's a professor of Compute
 
 **[Lex]** I mean ... but you have to assert yet others have to be scared of you. Just we're all there's this tension there's this game so if we studied a lot of work with pedestrians. If you approach pedestrians as purely an obstacle avoidance so you either doing look ahead isn't modeling the intent that you're ... they're going to take advantage of you they're not going to respect you at all. There has to be a tension, a fear, some amount of uncertainty that's how we have create, we ...
 
-**[Stuart]** Or at least, just a kind of a resoluteness. So you have to display a certain amount of resoluteness, you can't you can't be too tentative. The solutions then become pretty complicated. You get into game theoretic yes analyses. We're at Berkeley now we're working a lot on this kind of interaction between machines and humans.
+**[Stuart]** Or at least, just a kind of a resoluteness. So you have to display a certain amount of resoluteness, you can't you can't be too tentative. The solutions then become pretty complicated. You get into game theoretic, analyses. We're at Berkeley now we're working a lot on this kind of interaction between machines and humans.
 
 **[Lex]** And that's exciting
 
-**[Stuart]** And so my colleague and I could drag an actually you know if you formulate the problem game theoretically and you just let the system figure out the solution, it does interesting, unexpected things like sometimes at a stop sign. If no one is going first right, the car will actually back up a little all right and just to indicate to the other cars that they should go, and that's something it invented entirely by itself.
+**[Stuart]** And so my colleague Anca Dragan, actually, if you formulate the problem game theoretically and you just let the system figure out the solution, it does interesting, unexpected things like sometimes at a stop sign. If no one is going first right, the car will actually back up a little all right and just to indicate to the other cars that they should go, and that's something it invented entirely by itself.
 
 **[Lex]** That's interesting 
 
@@ -260,9 +271,9 @@ The following is a conversation with Stuart Russell. He's a professor of Compute
 
 **[Stuart]** I would say “[Interstellar](https://en.wikipedia.org/wiki/Interstellar_(film))” has my favorite robots 
 
-[Lex] Oh, beats [HAL-9000](https://en.wikipedia.org/wiki/HAL_9000)
+**[Lex]** Oh, beats [HAL-9000](https://en.wikipedia.org/wiki/HAL_9000)
 
-[Stuart] Yeah. [TARS](https://interstellarfilm.fandom.com/wiki/TARS), one of the robots in [Interstellar](https://en.wikipedia.org/wiki/Interstellar_(film)), is the way a robot should behave. And, I would say [Ex-Machina](https://en.wikipedia.org/wiki/Ex_Machina_(film)) is in some ways the one like the one that makes you think in a nervous kind of way about a lot where we're going.
+**[Stuart]** Yeah. [TARS](https://interstellarfilm.fandom.com/wiki/TARS), one of the robots in [Interstellar](https://en.wikipedia.org/wiki/Interstellar_(film)), is the way a robot should behave. And, I would say [Ex-Machina](https://en.wikipedia.org/wiki/Ex_Machina_(film)) is in some ways the one like the one that makes you think in a nervous kind of way about a lot where we're going.
 
 **[Lex]** Stuart thank you so much for talking today. 
 
@@ -274,121 +285,159 @@ The following is a conversation with Stuart Russell. He's a professor of Compute
 
 ## References
 
-All references in the web: https://www.one-tab.com/page/_kfXhNtyRA6Mk6ehUthPOw
+All references in the web: https://www.one-tab.com/page/qRzU2-NxQHWTnMTZSNTG7g
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442882.png)        [Max Tegmark: Life 3.0 | MIT | Artificial Intelligence Podcast](https://lexfridman.com/max-tegmark/)      
+* ![img](assets/favicons.png) [Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast - YouTube](https://www.youtube.com/watch?v=KsZI5oXBC0k)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442890.png)        [[1810.10525\] Toward an AI Physicist for Unsupervised Learning](https://arxiv.org/abs/1810.10525)      
+* ![img](assets/favicons.png) [Artificial Intelligence Podcast | AI Podcast | Lex Fridman](https://lexfridman.com/ai/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895.png)        [Pamela McCorduck - Wikipedia](https://en.wikipedia.org/wiki/Pamela_McCorduck)      
+* ![img](https://www.google.com/s2/favicons?domain=lexfridman.com) [Stuart Russell: Long-Term Future of AI | MIT | Artificial Intelligence Podcast](https://lexfridman.com/stuart-russell/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403490106.png)        [Arthur Samuel - Wikipedia](https://en.wikipedia.org/wiki/Arthur_Samuel)      
+* ![img](assets/favicons.png) [Stuart Russell](https://people.eecs.berkeley.edu/~russell/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403498809.png)        [Lighthill report - Wikipedia](https://en.wikipedia.org/wiki/Lighthill_report)      
+* ![img](https://www.google.com/s2/favicons?domain=lexfridman.com) [Lex Fridman | MIT | Human-Centered AI & Autonomous Vehicles](https://lexfridman.com/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442924.png)        [Sam Harris | Home of the Making Sense Podcast](https://samharris.org/)      
+* ![img](assets/favicons.png) [Lex Fridman (@lexfridman) / Twitter](https://twitter.com/lexfridman?ref_src=twsrc^google|twcamp^serp|twgr^author)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403510372.png)        [Debiasing - Wikipedia](https://en.wikipedia.org/wiki/Debiasing)      
+* ![img](assets/favicons.png) [MIT Deep Learning Lectures: Introduction, Tutorials, Videos, and Course Materials](https://deeplearning.mit.edu/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403514024.png)        [Rodney Brooks - Wikipedia](https://en.wikipedia.org/wiki/Rodney_Brooks)      
+* ![img](assets/favicons-1579460611208.png) [MIT 6.S099: Artificial General Intelligence](https://agi.mit.edu/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403518488.png)        [AlphaGo - Wikipedia](https://en.wikipedia.org/wiki/AlphaGo)      
+* ![img](assets/favicons-1579460611216.png) [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442953.png)        [AlphaGo Zero: Starting from scratch | DeepMind](https://deepmind.com/blog/article/alphago-zero-starting-scratch)      
+* ![img](assets/favicons-1579460611219.png) [AlphaGo - Wikipedia](https://en.wikipedia.org/wiki/AlphaGo)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442964.png)        [One Hundred Year Study on Artificial Intelligence (AI100) |](https://ai100.stanford.edu/)      
+* ![img](assets/favicons-1579460611230.png) [AlphaGo Zero: Starting from scratch | DeepMind](https://deepmind.com/blog/article/alphago-zero-starting-scratch)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403533889.png)        [The Machine Stops - Wikipedia](https://en.wikipedia.org/wiki/The_Machine_Stops)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [AlphaZero - Wikipedia](https://en.wikipedia.org/wiki/AlphaZero)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403537136.png)        [E. M. Forster - Wikipedia](https://en.wikipedia.org/wiki/E._M._Forster)      
+* ![img](https://www.google.com/s2/favicons?domain=people.eecs.berkeley.edu) [Anca Dragan](https://people.eecs.berkeley.edu/~anca/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403540685.png)        [Interstellar (film) - Wikipedia](https://en.wikipedia.org/wiki/Interstellar_(film))      
+* ![img](https://www.google.com/s2/favicons?domain=lexfridman.com) [Max Tegmark: Life 3.0 | MIT | Artificial Intelligence Podcast](https://lexfridman.com/max-tegmark/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403546659.png)        [Ex Machina (film) - Wikipedia](https://en.wikipedia.org/wiki/Ex_Machina_(film))      
+* ![img](assets/favicons-1579460611265.png) [[1810.10525\] Toward an AI Physicist for Unsupervised Learning](https://arxiv.org/abs/1810.10525)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403551214.png)        [AlphaZero - Wikipedia](https://en.wikipedia.org/wiki/AlphaZero)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Pamela McCorduck - Wikipedia](https://en.wikipedia.org/wiki/Pamela_McCorduck)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403555223.png)        [Lisp (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Lisp_(programming_language))      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Arthur Samuel - Wikipedia](https://en.wikipedia.org/wiki/Arthur_Samuel)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443015.png)        [MIT Deep Learning Lectures: Introduction, Tutorials, Videos, and Course Materials](https://deeplearning.mit.edu/)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Lighthill report - Wikipedia](https://en.wikipedia.org/wiki/Lighthill_report)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442882-1579403561220.png)        [Lex Fridman | MIT | Human-Centered AI & Autonomous Vehicles](https://lexfridman.com/)      
+* ![img](assets/favicons-1579460611307.png) [Sam Harris | Home of the Making Sense Podcast](https://samharris.org/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443026.png)        [MIT 6.S099: Artificial General Intelligence](https://agi.mit.edu/)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Debiasing - Wikipedia](https://en.wikipedia.org/wiki/Debiasing)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442882-1579403574554.png)        [Artificial Intelligence Podcast | AI Podcast | Lex Fridman](https://lexfridman.com/ai/)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Rodney Brooks - Wikipedia](https://en.wikipedia.org/wiki/Rodney_Brooks)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443036.png)        [Lex Fridman (@lexfridman) / Twitter](https://twitter.com/lexfridman?ref_src=twsrc^google|twcamp^serp|twgr^author)      
+* ![img](assets/favicons-1579460611328.png) [One Hundred Year Study on Artificial Intelligence (AI100) |](https://ai100.stanford.edu/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443042.png)        [Stuart Russell](https://people.eecs.berkeley.edu/~russell/)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [E. M. Forster - Wikipedia](https://en.wikipedia.org/wiki/E._M._Forster)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403583693.png)        [Lighthill report - Wikipedia](https://en.wikipedia.org/wiki/Lighthill_report)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Interstellar (film) - Wikipedia](https://en.wikipedia.org/wiki/Interstellar_(film))      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062.png)        [Alan Turing | Biography, Facts, & Education | Britannica](https://www.britannica.com/biography/Alan-Turing)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Ex Machina (film) - Wikipedia](https://en.wikipedia.org/wiki/Ex_Machina_(film))      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443068.png)        [King Midas](https://www.greekmythology.com/Myths/Mortals/King_Midas/king_midas.html)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Lisp (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Lisp_(programming_language))      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062-1579403592446.png)        [Norbert Wiener | American mathematician | Britannica](https://www.britannica.com/biography/Norbert-Wiener)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Garry Kasparov - Wikipedia](https://en.wikipedia.org/wiki/Garry_Kasparov)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403595798.png)        [Markov decision process - Wikipedia](https://en.wikipedia.org/wiki/Markov_decision_process)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Lighthill report - Wikipedia](https://en.wikipedia.org/wiki/Lighthill_report)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443091.png)        [The History of Utilitarianism (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/utilitarianism-history/)      
+* ![img](assets/favicons-1579460611377.png) [Alan Turing | Biography, Facts, & Education | Britannica](https://www.britannica.com/biography/Alan-Turing)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403601377.png)        [Food and Drug Administration - Wikipedia](https://en.wikipedia.org/wiki/Food_and_Drug_Administration)      
+* ![img](assets/favicons-1579460611385.png) [King Midas](https://www.greekmythology.com/Myths/Mortals/King_Midas/king_midas.html)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443107.png)        [california law impresonation - Google Search](https://www.google.com/search?client=ubuntu&channel=fs&q=california+law+impresonation&ie=utf-8&oe=utf-8)      
+* ![img](https://www.google.com/s2/favicons?domain=www.britannica.com) [Norbert Wiener | American mathematician | Britannica](https://www.britannica.com/biography/Norbert-Wiener)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403611402.png)        [Atomic bombings of Hiroshima and Nagasaki - Wikipedia](https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Markov decision process - Wikipedia](https://en.wikipedia.org/wiki/Markov_decision_process)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403803989.png)        [Chernobyl disaster - Wikipedia](https://en.wikipedia.org/wiki/Chernobyl_disaster)      
+* ![img](assets/favicons-1579460611402.png) [The History of Utilitarianism (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/utilitarianism-history/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403613952.png)        [H. G. Wells - Wikipedia](https://en.wikipedia.org/wiki/H._G._Wells)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Food and Drug Administration - Wikipedia](https://en.wikipedia.org/wiki/Food_and_Drug_Administration)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062-1579403617015.png)        [Frederick Soddy | British chemist | Britannica](https://www.britannica.com/biography/Frederick-Soddy)      
+* ![img](assets/favicons-1579460611415.png) [california law impresonation - Google Search](https://www.google.com/search?client=ubuntu&channel=fs&q=california+law+impresonation&ie=utf-8&oe=utf-8)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403620050.png)        [Isotope - Wikipedia](https://en.wikipedia.org/wiki/Isotope)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Atomic bombings of Hiroshima and Nagasaki - Wikipedia](https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062-1579403623041.png)        [Ernest Rutherford | Accomplishments, Atomic Theory, & Facts | Britannica](https://www.britannica.com/biography/Ernest-Rutherford)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Chernobyl disaster - Wikipedia](https://en.wikipedia.org/wiki/Chernobyl_disaster)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443062-1579403629659.png)        [Leo Szilard | American physicist | Britannica](https://www.britannica.com/biography/Leo-Szilard)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [H. G. Wells - Wikipedia](https://en.wikipedia.org/wiki/H._G._Wells)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403632210.png)        [Neutron - Wikipedia](https://en.wikipedia.org/wiki/Neutron)      
+* ![img](https://www.google.com/s2/favicons?domain=www.britannica.com) [Frederick Soddy | British chemist | Britannica](https://www.britannica.com/biography/Frederick-Soddy)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403634821.png)        [Manhattan Project - Wikipedia](https://en.wikipedia.org/wiki/Manhattan_Project)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Isotope - Wikipedia](https://en.wikipedia.org/wiki/Isotope)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443175.png)        [Rodney Brooks Home](https://people.csail.mit.edu/brooks/)      
+* ![img](https://www.google.com/s2/favicons?domain=www.britannica.com) [Ernest Rutherford | Accomplishments, Atomic Theory, & Facts | Britannica](https://www.britannica.com/biography/Ernest-Rutherford)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443178.png)        [The gorilla problem | The Enlightened Economist](http://www.enlightenmenteconomics.com/blog/index.php/2019/10/the-gorilla-problem/)      
+* ![img](https://www.google.com/s2/favicons?domain=www.britannica.com) [Leo Szilard | American physicist | Britannica](https://www.britannica.com/biography/Leo-Szilard)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403644867.png)        [AI control problem - Wikipedia](https://en.wikipedia.org/wiki/AI_control_problem)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Neutron - Wikipedia](https://en.wikipedia.org/wiki/Neutron)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403651122.png)        [Lethal autonomous weapon - Wikipedia](https://en.wikipedia.org/wiki/Lethal_autonomous_weapon)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Manhattan Project - Wikipedia](https://en.wikipedia.org/wiki/Manhattan_Project)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403653281.png)        [WALL-E - Wikipedia](https://en.wikipedia.org/wiki/WALL-E)      
+* ![img](assets/favicons-1579460611475.png) [Rodney Brooks Home](https://people.csail.mit.edu/brooks/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403655870.png)        [Massive open online course - Wikipedia](https://en.wikipedia.org/wiki/Massive_open_online_course)      
+* ![img](assets/favicons-1579460611482.png) [The gorilla problem | The Enlightened Economist](http://www.enlightenmenteconomics.com/blog/index.php/2019/10/the-gorilla-problem/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443207.png)        [Stanford AI Safety](http://aisafety.stanford.edu/)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [AI control problem - Wikipedia](https://en.wikipedia.org/wiki/AI_control_problem)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443107-1579403691814.png)        [provably - Google Search](https://www.google.com/search?client=ubuntu&channel=fs&q=provably&ie=utf-8&oe=utf-8)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Lethal autonomous weapon - Wikipedia](https://en.wikipedia.org/wiki/Lethal_autonomous_weapon)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403695684.png)        [Science fiction - Wikipedia](https://en.wikipedia.org/wiki/Science_fiction)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [WALL-E - Wikipedia](https://en.wikipedia.org/wiki/WALL-E)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403698293.png)        [Interstellar (film) - Wikipedia](https://en.wikipedia.org/wiki/Interstellar_(film))      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Massive open online course - Wikipedia](https://en.wikipedia.org/wiki/Massive_open_online_course)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403702894.png)        [HAL 9000 - Wikipedia](https://en.wikipedia.org/wiki/HAL_9000)      
+* ![img](assets/favicons-1579460611512.png) [Stanford AI Safety](http://aisafety.stanford.edu/)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443240.png)        [TARS | Interstellar Wiki | Fandom](https://interstellarfilm.fandom.com/wiki/TARS)      
+* ![img](assets/favicons-1579460611522.png) [Provable Synonyms, Provable Antonyms | Merriam-Webster Thesaurus](https://www.merriam-webster.com/thesaurus/provable)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443245.png)        [4K Video Downloader | Free Video Downloader for PС, macOS and Linux | 4K Download](https://www.4kdownload.com/products/product-videodownloader)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Science fiction - Wikipedia](https://en.wikipedia.org/wiki/Science_fiction)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443252.png)        [Subtitle Edit 3.5.11 / 3.5.12 Beta Free Download - VideoHelp](https://www.videohelp.com/software/Subtitle-Edit)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Interstellar (film) - Wikipedia](https://en.wikipedia.org/wiki/Interstellar_(film))      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443260.png)        [Typora — a markdown editor, markdown reader.](https://www.typora.io/)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [HAL 9000 - Wikipedia](https://en.wikipedia.org/wiki/HAL_9000)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443270.png)        [GitHub](https://github.com/)      
+* ![img](assets/favicons-1579460611547.png) [TARS | Interstellar Wiki | Fandom](https://interstellarfilm.fandom.com/wiki/TARS)      
 
-![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400443277.png)        [Free Git GUI Client - Windows, Mac & Linux | GitKraken](https://www.gitkraken.com/)      
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [The Machine Stops - Wikipedia](https://en.wikipedia.org/wiki/The_Machine_Stops)      
+
+* ![img](https://www.google.com/s2/favicons?domain=www.britannica.com) [nuclear weapon | History, Facts, Types, & Effects | Britannica](https://www.britannica.com/technology/nuclear-weapon)      
+
+* ![img](assets/favicons-1579460611569.png) [Artificial Intelligence Network | Research groups | Imperial College London](https://www.imperial.ac.uk/artificial-intelligence)      
+
+* ![img](assets/favicons-1579460611578.png) [Meta-Reasoning: Monitoring and Control of Thinking and Reasoning. - PubMed - NCBI](https://www.ncbi.nlm.nih.gov/pubmed/28625355)      
+
+* ![img](assets/favicons-1579460611583.png) [Meta-Reasoning: Monitoring and Control of Thinking and Reasoning - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1364661317301055)      
+
+* ![img](assets/favicons-1579460611601.png) [Metareasoning | The MIT Press](https://mitpress.mit.edu/books/metareasoning)      
+
+* ![img](assets/favicons-1579460611620.png) [Backgammon | Play it online](https://cardgames.io/backgammon/)      
+
+* ![img](assets/favicons-1579460611631.png) [Short Term Memory | Simply Psychology](https://www.simplypsychology.org/short-term-memory.html)      
+
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Grandmaster (chess) - Wikipedia](https://en.wikipedia.org/wiki/Grandmaster_(chess))      
+
+* ![img](assets/favicons-1579460611649.png) [Bobby Fischer - Chess Player, Author - Biography](https://www.biography.com/athlete/bobby-fischer)      
+
+* ![img](assets/favicons-1579460611658.png) [20 Years after Deep Blue: How AI Has Advanced Since Conquering Chess - Scientific American](https://www.scientificamerican.com/article/20-years-after-deep-blue-how-ai-has-advanced-since-conquering-chess/)      
+
+* ![img](assets/favicons-1579460611665.png) [CS221](https://stanford.edu/~cpiech/cs221/apps/deepBlue.html)      
+
+* ![img](assets/favicons-1579460611684.png) [IBM100 - Deep Blue](https://www.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/)      
+
+* ![img](assets/favicons-1579460611699.png) [Sinclair ZX-81 computer](http://oldcomputers.net/zx81.html)      
+
+* ![img](assets/favicons-1579460611713.png) [Computing Square Roots with Newton's Method](https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html)      
+
+* ![img](assets/favicons-1579460611722.png) [Artificial Intelligence | Illinois Computer Science](https://cs.illinois.edu/research/artificial-intelligence)      
+
+* ![img](https://www.google.com/s2/favicons?domain=www.google.com) [AI University of Illinois - Google Search](https://www.google.com/search?client=ubuntu&channel=fs&q=AI+University+of+Illinois&ie=utf-8&oe=utf-8)      
+
+* ![img](https://www.google.com/s2/favicons?domain=en.wikipedia.org) [Go (game) - Wikipedia](https://en.wikipedia.org/wiki/Go_(game))      
+
+* ![img](assets/favicons-1579460611760.png) [HOW TO PLAY GO](https://www.kiseido.com/ff.htm)      
+
+* ![img](assets/favicons-1579460611751.png) [What Is Go? | American Go Association](https://www.usgo.org/what-go)      
 
 ## Links
 
@@ -404,6 +453,8 @@ Podcast: https://lexfridman.com/stuart-russell/
 
 ## Toolbox
 
+Software utilities used for this transcript.
+
 *   Typora: https://www.typora.io/
 
 *   GitKraken: https://www.gitkraken.com/
@@ -415,5 +466,3 @@ Podcast: https://lexfridman.com/stuart-russell/
 *   4K Video Downloader: https://www.4kdownload.com/products/product-videodownloader
 
 *   SubTitle Edit: https://www.videohelp.com/software/Subtitle-Edit
-
-    
