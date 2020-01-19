@@ -276,11 +276,11 @@ The following is a conversation with Stuart Russell. He's a professor of Compute
 
 All references in the web: https://www.one-tab.com/page/_kfXhNtyRA6Mk6ehUthPOw
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442882.png)        [Max Tegmark: Life 3.0 | MIT | Artificial Intelligence Podcast](https://lexfridman.com/max-tegmark/)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442882.png)        [Max Tegmark: Life 3.0 | MIT | Artificial Intelligence Podcast](https://lexfridman.com/max-tegmark/)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442890.png)        [[1810.10525\] Toward an AI Physicist for Unsupervised Learning](https://arxiv.org/abs/1810.10525)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442890.png)        [[1810.10525\] Toward an AI Physicist for Unsupervised Learning](https://arxiv.org/abs/1810.10525)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Pamela McCorduck - Wikipedia](https://en.wikipedia.org/wiki/Pamela_McCorduck)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895.png)        [Pamela McCorduck - Wikipedia](https://en.wikipedia.org/wiki/Pamela_McCorduck)      
 
 ![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Arthur Samuel - Wikipedia](https://en.wikipedia.org/wiki/Arthur_Samuel)      
 
