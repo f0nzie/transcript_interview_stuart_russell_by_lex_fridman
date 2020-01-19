@@ -340,7 +340,7 @@ All references in the web: https://www.one-tab.com/page/_kfXhNtyRA6Mk6ehUthPOw
 
 ![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403611402.png)        [Atomic bombings of Hiroshima and Nagasaki - Wikipedia](https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki)      
 
-![img](Stuart Russell: Long-Term Future of Artificial Intelligence | Artificial Intelligence (AI) Podcast.assets/favicons-1579400442895.png)        [Chernobyl disaster - Wikipedia](https://en.wikipedia.org/wiki/Chernobyl_disaster)      
+![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403803989.png)        [Chernobyl disaster - Wikipedia](https://en.wikipedia.org/wiki/Chernobyl_disaster)      
 
 ![img](Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.assets/favicons-1579400442895-1579403613952.png)        [H. G. Wells - Wikipedia](https://en.wikipedia.org/wiki/H._G._Wells)      
 
