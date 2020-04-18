@@ -1,1 +1,1 @@
-/media/msfz751/2560x/repos-active/transcripts/Stuart Russell/Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.md
+Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_(AI)_Podcast.md
