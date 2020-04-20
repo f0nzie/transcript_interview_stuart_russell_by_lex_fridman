@@ -20,7 +20,7 @@ These are the topics:
 
 
 
-Download the PDF here: https://lnkd.in/fVxFcSj
+Download the PDF [here](https://github.com/f0nzie/transcript_interview_stuart_russell_by_lex_fridman/blob/master/Stuart_Russell--Long-Term_Future_of_Artificial_Intelligence_Artificial_Intelligence_-AI-_Podcast.pdf)
 
 [#ai](https://www.linkedin.com/feed/hashtag/?keywords=ai&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6657145836125941760) [#artificialintelligence](https://www.linkedin.com/feed/hashtag/?keywords=artificialintelligence&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6657145836125941760) [#machinelearning](https://www.linkedin.com/feed/hashtag/?keywords=machinelearning&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6657145836125941760) [#algorithms](https://www.linkedin.com/feed/hashtag/?keywords=algorithms&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6657145836125941760) [#transcription](https://www.linkedin.com/feed/hashtag/?keywords=transcription&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6657145836125941760)
 
